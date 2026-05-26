@@ -20,13 +20,7 @@ class M82QuantumMasterEngine:
         }
 
     def load_system_matrix(self):
-        if not os.path.exists(self.config_path):
-            self.config = self.generate_default_config()
-        else:
-            try:
-                with open(self.config_path, 'r', encoding='utf-8') as f: self.config = json.load(f)
-            except:
-                self.config = self.generate_default_config()
+        self.config = self.generate_default_config()
         self.total_firepower = self.config["master_capital_engineering"]["total_portfolio_value_usd"]
         self.firewall_value = self.total_firepower * self.config["master_capital_engineering"]["liquidity_firewall_pct"]
 
@@ -45,7 +39,7 @@ class M82QuantumMasterEngine:
             if len(args) >= 8: self.config["market_equities_floating"]["oke_spot"] = float(args[7])
             if len(args) >= 9: self.config["market_equities_floating"]["enb_spot"] = float(args[8])
             if len(args) >= 10: self.config["market_equities_floating"]["trp_spot"] = float(args[9])
-            logging.info("Telemetría e inputs de las 8 equities mapeados.")
+            logging.info("Telemetría e inputs de las 8 equities mapeados correctamente.")
         except Exception as e:
             logging.error(f"Falla de conversión: {e}")
 
@@ -98,7 +92,7 @@ class M82QuantumMasterEngine:
 
         try:
             subprocess.run(["git", "add", "m82_robust_platform.py", "m82_config.json", "m82_box_vault.json"], capture_output=True)
-            subprocess.run(["git", "commit", "-m", "M82 Core v12.0: Gold Compliant Final Push"], capture_output=True)
+            subprocess.run(["git", "commit", "-m", "M82 Core v12.0: Gold Compliant Structural Fix"], capture_output=True)
             push_res = subprocess.run(["git", "push", "-u", "origin", "main", "--force"], capture_output=True, text=True)
             if push_res.returncode == 0: logging.info("🔥 ¡Fusión Completa V12.0! Datos publicados en GitHub.")
             else: logging.info("ℹ Base estructurada localmente en Termux de forma segura.")
