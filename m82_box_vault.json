@@ -1,51 +1,37 @@
 {
     "METADATA": {
-        "terminal_id": "M82-TERMINAL-PORTABLE",
-        "build_architecture": "V12.0_GOLD_COMPLIANT_FINAL",
-        "status": "GREEN_COMPLIANT"
+        "status": "GREEN_COMPLIANT",
+        "build": "V12.0_FINAL"
     },
     "AUDIT_PAYLOAD": {
-        "timestamp": "2026-05-26T00:20:03.404713",
         "portfolio_scale_usd": 5000000000.0,
-        "governance_shield": "US_FEDERAL_AND_UK_LAW",
         "status": "GREEN_COMPLIANT",
-        "PISO_1_LIQUIDITY_FIREWALL": {
-            "allocated_usd": 3250000000.0,
-            "status": "GREEN_COMPLIANT"
+        "PISO_1_FIREWALL": {
+            "allocated_usd": 3250000000.0
         },
-        "PISO_2_US_MIDSTREAM_INFRASTRUCTURE": {
-            "allocated_usd": 500000000.0,
-            "equities_matrix": {
-                "energy_transfer": 20.09,
-                "kinder_morgan": 34.73,
-                "williams_cos": 76.87,
-                "oneok_inc_oke": 92.45,
-                "enbridge_inc_enb": 41.38,
-                "tc_energy_trp": 47.12,
-                "brent_wti_spread": 3.46
+        "PISO_2_MIDSTREAM": {
+            "equities": {
+                "paa_spot": 24.15,
+                "pagp_spot": 25.95,
+                "et_spot": 20.09,
+                "kmi_spot": 34.73,
+                "wmb_spot": 76.87,
+                "oke_spot": 92.45,
+                "enb_spot": 41.38,
+                "trp_spot": 47.12
             },
-            "status": "GREEN_ACTIVE"
+            "spread": 3.46
         },
-        "PISO_3_CARIBBEAN_GEOPOLITICAL_CORRIDOR": {
-            "allocated_usd": 500000000.0,
-            "geopolitical_risk_profile": {
-                "venezuela_state_of_law": true,
-                "machado_plan_compliance": true,
-                "integration_us_doctrine": "ALIANZA_AMERICANA_STRICT_51",
-                "iran_sanctions_shield": true,
-                "protocol_security": "AUTHORIZED_STATE_OF_LAW_VALIDATED"
-            },
+        "PISO_3_CARIBBEAN": {
+            "machado_plan": true,
+            "integration_us_doctrine": "US_GAAP_IFRS_COMPLIANT",
             "status": "GREEN_COMPLIANT"
         },
-        "PISO_4_KOMODO_BIG_DATA_STREAM": {
-            "allocated_usd": 500000000.0,
-            "engine_mode": "KOMODO_GOLD_ACTIVE_V12",
+        "PISO_4_KOMODO": {
             "status": "GREEN_COMPLIANT"
         },
-        "PISO_5_AGI_QUANTUM_EMULATION": {
-            "allocated_usd": 250000000.0,
-            "entropy_index": 0.313052,
-            "status": "GREEN_COMPLIANT"
+        "PISO_5_AGI": {
+            "entropy": 0.313052
         }
     }
 }

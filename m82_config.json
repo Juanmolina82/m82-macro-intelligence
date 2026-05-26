@@ -1,17 +1,11 @@
 {
     "governance": {
-        "parent": "Molina Holdings LLC (Tennessee)",
-        "general_partner": "Molina Global LLC (Delaware)",
-        "legal_shield_law": "US_FEDERAL_AND_UK_LAW",
-        "compliance_audit": "US_GAAP_IFRS_BIG_FOUR_DELOITTE"
+        "parent": "Molina Holdings LLC",
+        "compliance_audit": "US_GAAP_IFRS_DELOITTE"
     },
     "master_capital_engineering": {
         "total_portfolio_value_usd": 5000000000.0,
-        "liquidity_firewall_pct": 0.65,
-        "target_leverage_debt_ebitda": [
-            3.5,
-            4.5
-        ]
+        "liquidity_firewall_pct": 0.65
     },
     "market_equities_floating": {
         "paa_spot": 24.15,
@@ -30,12 +24,6 @@
     "geopolitical_locks": {
         "venezuela_state_of_law": true,
         "machado_plan_active": true,
-        "caribbean_corridor_secure": true,
-        "iran_sanctions_lock": true,
         "integration_model_us": "ALIANZA_AMERICANA_STRICT_51"
-    },
-    "advanced_tech_telemetry": {
-        "komodo_dragon_engine": "KOMODO_GOLD_ACTIVE_V12",
-        "quantum_state_emulation": "QUBIT_LATTICE_SECURE"
     }
 }
