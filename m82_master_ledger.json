@@ -1,60 +1,40 @@
 {
-    "corporate_governance_v32": {
-        "parent_investment_manager": "MOLINA HOLDINGS LLC (Tennessee)",
-        "global_general_partner": "MOLINA GLOBAL LLC (Delaware)",
-        "alpha_signature": "#M82",
-        "legal_shield_jurisdiction": "U.S. Federal / UK Law Anchor",
-        "audit_firm_tier_1": "Deloitte Nashville / Global (US GAAP/IFRS)",
-        "investment_philosophy": "Deep Business / Sovereign Debt & Regional Energy Infrastructure Infrastructure"
+    "_metadata": {
+        "system_signature": "MOLINA_HOLDINGS_M82",
+        "watermark_hash": "M82_MASTER_LEDGER_V5.3",
+        "last_sync_utc": "2026-05-27T20:15:01.608808Z",
+        "schema_version": "5.3.0"
     },
-    "caribbean_corridor_and_sovereign_assets": {
-        "strategic_focus": "U.S.-Venezuela Energy Corridor & Maritime Infrastructure",
-        "collateral_milestone_date": "2026-06-19",
-        "collateral_target": "Sovereign Refining Assets & Midstream Infrastructure",
-        "legal_framework": "Court-supervised asset recovery and institutional reallocation",
-        "production_target_bpd": 1230000.0,
-        "governance_model": "Rule of law integration & transition-agnostic commercial safety"
+    "corporate_governance": {
+        "investment_manager": "MOLINA HOLDINGS LLC (Tennessee)",
+        "general_partner": "MOLINA GLOBAL LLC (Delaware)",
+        "jurisdiction_anchor": "U.S. Federal / UK Law",
+        "audit_protocol": "US GAAP / IFRS by Deloitte Global"
     },
-    "global_logistics_and_maritime_arbitrage": {
-        "panama_canal_status": "Congestion-driven transit constraints reshaping trade routes",
-        "hong_kong_shipping_hubs": "Robust quarterly revenue outperformance signaling resilient trans-Pacific volumes",
-        "supply_chain_tech_infrastructure": {
-            "dycom_industries_data_center_growth_pct": 32.0,
-            "micron_technology_market_cap_usd": "1T+"
-        }
-    },
-    "energy_and_distillate_refining_margins": {
-        "ebob_gasoline_crack_spread_usd_bbl": 21.25,
-        "european_diesel_profit_margin_change_pct": -4.0,
-        "crude_oil_benchmarks": {
-            "wti_settle_usd": 90.58,
-            "brent_settle_usd": 96.79
+    "sovereign_energy_corridor_state_dept_framework": {
+        "geopolitical_doctrine": "Trump-Rubio Three-Phase Bilateral Framework",
+        "phases": {
+            "phase_1": "Stabilization and risk insulation (Prevention of systemic chaos)",
+            "phase_2": "Recovery (Fair Western & American midstream enterprise access / Reconciliation)",
+            "phase_3": "Structured Legal Transition under Rule of Law"
         },
-        "aviation_demand_resilience": {
-            "united_airlines_margin_outlook": "Double-digit pre-tax recovery 2027",
-            "ge_aerospace_aftermarket_spare_parts_pct": 40.0
-        }
+        "validated_physical_flows": {
+            "volume_delivered_to_us_bbl": 10000000.0,
+            "pricing_basis": "Market rates / Spot market transparency",
+            "financial_clearing_structure": "U.S. Treasury monitored and controlled escrow accounts",
+            "independent_accounting_auditor": "KPMG"
+        },
+        "operational_corridor_capacity_bpd": 1230000.0
     },
-    "monetary_policy_and_liquidity_buffers": {
-        "fed_funds_rate_bias": "Restrictive / Higher-for-longer on energy-driven structural inflation",
-        "fed_rrp_volume_usd_bn": 1.853,
-        "sofr_swap_curve": "Flattening under persistent corporate issuance hedging pressure",
-        "precious_metals_support": {
-            "gold_spot_xau_usd": 4444.64,
-            "silver_spot_xag_usd": 74.82
-        }
+    "tier_1_banking_and_logistics_nodes": {
+        "hong_kong_infrastructure_axis": "CK Hutchison Holdings Ltd (Ports, Midstream & Telecom)",
+        "global_liquidity_clearing": "HSBC Holdings PLC (Georges Elhedery / Pam Kaur)"
     },
-    "capital_engineering_metrics": {
-        "consolidated_leverage_debt_ebitda": "3.5x to 4.5x",
-        "hedging_fixed_rate_debt_pct": 80.0,
-        "target_ebitda_margin_midstream": "60% - 70%",
-        "preferred_return_hurdle_pct": 8.0,
-        "initial_protocol_usd_mn": 500.0,
-        "scalable_firepower_usd_bn": "2.0 to 5.0"
-    },
-    "system_compliance_gate": {
-        "status": "GREEN_COMPLIANT",
-        "repository_seal": "FUSIONED_AND_RESGUARDED_K",
-        "git_sync_status": "Everything up-to-date"
+    "capital_engineering_limits": {
+        "leverage_ceiling": "3.5x to 4.5x Debt/EBITDA",
+        "interest_rate_hedge": ">=80% Fixed-Rate",
+        "midstream_ebitda_target_pct": 65.0,
+        "initial_protocol_deployment_usd": 500000000.0,
+        "collateral_milestone": "2026-06-19"
     }
 }
