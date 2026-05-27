@@ -61,13 +61,13 @@ MASTER_DATABASE = {
         "chinese_foreign_minister": "Wang Yi",
         "panamanian_foreign_minister": "Martínez Acha",
         "china_stance": "Urged protection of Chinese firm rights, demands zero third-party interference",
-        "implied_third_party": "United States (Trump Administration Pressure)",
-        "strategic_risk": "Chokepoint maritime vulnerability for Pacific-Atlantic raw material flows"
+        "underlying_dispute": "Panama revoked concession of two ports to CK Hutchison (Hong Kong)",
+        "tactical_status": "Detention of Panama-flagged ships in China decreasing according to President Mulino",
+        "strategic_risk": "Asymmetric port-state control leverage used by Beijing"
     },
     "blackrock_institutional_mining_ma": {
         "key_speaker": "Olivia Markham (BlackRock Managing Director)",
-        "strategic_stance": "Bullish on large scale mining consolidation",
-        "potential_mega_merger_target": "Glencore & Rio Tinto ($240B projected)"
+        "strategic_stance": "Bullish on large scale mining consolidation"
     },
     "tech_manufacturing_hub_2026": {
         "ai_epicenter_node": "Taiwan_Taipei",
@@ -89,7 +89,7 @@ MASTER_DATABASE = {
 }
 
 def execute_git_integration():
-    logger.info("Indexando vector del Canal de Panamá (Wang Yi) en Ledger M82...")
+    logger.info("Indexando tregua portuaria de CK Hutchison-Panamá en Ledger M82...")
     try:
         with open("m82_master_ledger.json", "w", encoding="utf-8") as json_file:
             json.dump(MASTER_DATABASE, json_file, indent=4, ensure_ascii=False)
@@ -103,7 +103,7 @@ def execute_git_integration():
         
     try:
         subprocess.run(["git", "add", "m82_master_architecture_core.py", "m82_master_ledger.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "Update #M82 - China-Panama Geopolitical Vector Injected"], capture_output=True)
+        subprocess.run(["git", "commit", "-m", "Update #M82 - CK Hutchison Panama Port Background Injected"], capture_output=True)
         logger.info("Cambios consolidados localmente en Termux.")
     except Exception as e:
         pass
