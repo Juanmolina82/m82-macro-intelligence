@@ -5,7 +5,7 @@
         MOLINA HOLDINGS LLC & MOLINA GLOBAL LLC (#M82)
 ==================================================================================
 Enterprise Analytical Architecture & Deep Value Model - K-Mobile Platform
-Secure Master Ledger Database & Financial Pipeline Model (V3.9.0 INDUSTRIAL-EDGE)
+Secure Master Ledger Database & Financial Pipeline Model (V4.0.0 GLOBAL-MACRO)
 Target Repository: Juanmolina82/m82-macro-intelligence
 Date: May 27, 2026 | System Gate Status: GREEN_COMPLIANT
 ==================================================================================
@@ -22,7 +22,7 @@ logging.basicConfig(
     format='[%(asctime)s] [%(levelname)s] [%(name)s] %(message)s',
     handlers=[logging.StreamHandler(sys.stdout)]
 )
-logger = logging.getLogger("#M82-INDUSTRIAL-EDGE")
+logger = logging.getLogger("#M82-GLOBAL-MACRO")
 
 MASTER_DATABASE = {
     "corporate_governance_v32": {
@@ -31,47 +31,74 @@ MASTER_DATABASE = {
         "alpha_signature": "#M82",
         "legal_shield_jurisdiction": "U.S. Federal / UK Law Anchor",
         "audit_firm_tier_1": "Deloitte Nashville / Global (US GAAP/IFRS)",
-        "investment_philosophy": "Deep Business / High Yield Capital & Industrial Infrastructure"
+        "investment_philosophy": "Deep Business / Sovereign Debt & Tech Infrastructure Arbitrage"
     },
-    "aerospace_and_transportation_intelligence": {
-        "united_airlines_forecast": {
-            "target_pre_tax_margin": "Double-Digit (2027)",
-            "catalyst": "Fuel cost cooling & persistent consumer demand resilience",
-            "historical_impediment": "Iran conflict fuel price spikes"
+    "sovereign_fixed_income_curves": {
+        "us_treasury_yields_10y": {
+            "united_states": 4.483,
+            "australia_spread_bps": 38.2,
+            "germany_spread_bps": -149.8,
+            "canada_spread_bps": -102.8,
+            "france_spread_bps": -89.7,
+            "united_kingdom_spread_bps": 38.4,
+            "japan_spread_bps": -179.3
         },
-        "ge_aerospace_aftermarket_metrics": {
-            "spare_parts_order_growth_pct": 40.0,
-            "prior_quarter_growth_pct": 30.0,
-            "adjusted_eps_forecast_2026": {"lower_bound": 7.10, "upper_bound": 7.40},
-            "shop_visit_dynamics": "Transitioning to comprehensive performance restoration for LEAP engines",
-            "supply_chain_status": "Pressure on suppliers due to skepticism over production rate increases"
+        "germany_bund_yields_2y": {
+            "germany_base": 2.597,
+            "united_states_spread_bps": 144.8,
+            "united_kingdom_spread_bps": 168.9,
+            "japan_spread_bps": -121.3
+        },
+        "us_treasury_auction_5y": {
+            "amount_usd": 70000000000.0,
+            "high_yield_pct": 4.177,
+            "auction_stop_pct": 4.182,
+            "bid_to_cover": 2.34,
+            "indirect_bids_pct": 74.9,
+            "dealer_award_pct": 12.8
         }
     },
-    "precious_metals_and_monetary_policy": {
-        "gold_spot_xau_usd": 4444.64,
-        "two_month_status": "MINIMUM_SUPPORT_REACHED",
-        "macro_risk_driver": "Prolonged Middle East conflict expanding structural inflation",
-        "federal_reserve_rate_outlook": {
-            "kashkari_stance": "Focused on containing rising inflationary risks",
-            "market_implied_hike_bps": 25.0,
-            "target_horizon": "End of 2026"
+    "money_market_liquidity_sofr": {
+        "fed_rrp_operation_usd_bn": 1.853,
+        "rrp_participants": 7,
+        "general_collateral_repo_pct": 3.67,
+        "sofr_futures_closing": {
+            "white_pack_srau26": 96.25,
+            "red_pack_srau27": 96.10,
+            "green_pack_srau28": 96.18,
+            "blue_pack_srau29": 96.13
         },
-        "co_metals": {
-            "silver_spot_xag_usd": 74.82,
-            "platinum_spot_xpt_usd": 1919.30,
-            "palladium_spot_xpd_usd": 1384.86
+        "fed_funds_implied_hike_probabilities": {
+            "september_2026_pct": 23.3,
+            "december_2026_pct": 37.8,
+            "rate_cut_probability_2026_pct": 0.0
         }
     },
-    "refining_and_distillates_arbitrage": {
-        "ebob_gasoline_crack_usd_bbl": 21.25,
-        "european_diesel_profit_margin_change_pct": -4.0
+    "equity_alpha_and_structural_tech": {
+        "micron_technology": {
+            "valuation_milestone": "SURPASSED_1_TRILLION_USD_MARKET_CAP",
+            "daily_gain_pct": 1.49,
+            "catalyst": "AI memory infrastructure spending surge"
+        },
+        "tesla_motors": {
+            "european_sales_growth_april_pct": 47.0,
+            "cup_with_handle_buy_point_usd": 453.40,
+            "strategic_chatter": "Potential corporate merger with SpaceX ahead of June IPO"
+        },
+        "dycom_industries": {
+            "earnings_per_share_usd": 4.42,
+            "consensus_estimate_usd": 2.72,
+            "daily_surge_pct": 32.0,
+            "sector": "AI Data Center Fiber/Physical Infrastructure"
+        }
     },
     "macro_lseg_workspace_market_closing": {
-        "dow_jones_industrial": 50674.30,
-        "nasdaq_composite": 26616.86,
-        "sp500_index": 7515.45,
-        "brent_crude_settle_usd": 95.92,
-        "wti_crude_settle_usd": 88.70
+        "dow_jones_industrial": 50756.96,
+        "nasdaq_composite": 26597.86,
+        "sp500_index": 7518.46,
+        "wti_crude_settle_usd": 90.58,
+        "brent_crude_settle_usd": 96.79,
+        "mexico_ipc_index": 70182.16
     },
     "system_compliance_gate": {
         "status": "GREEN_COMPLIANT",
@@ -81,7 +108,7 @@ MASTER_DATABASE = {
 }
 
 def execute_git_integration():
-    logger.info("Inyectando Inteligencia Industrial Bernstein y Soportes de Oro en Ledger #M82...")
+    logger.info("Sincronizando Curva de Renta Fija Global y Métricas Monetarias en Ledger #M82...")
     try:
         with open("m82_master_ledger.json", "w", encoding="utf-8") as json_file:
             json.dump(MASTER_DATABASE, json_file, indent=4, ensure_ascii=False)
@@ -95,7 +122,7 @@ def execute_git_integration():
         
     try:
         subprocess.run(["git", "add", "m82_master_architecture_core.py", "m82_master_ledger.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "Sync #M82 - Bernstein Aviations Updates, Gold Two-Month Low & Fed Hike Arb Added"], capture_output=True)
+        subprocess.run(["git", "commit", "-m", "Sync #M82 - FactSet Global Yields, SOFR White/Blue Futures & MU $1T Cap Added"], capture_output=True)
         logger.info("Cambios consolidados localmente en Termux.")
     except Exception as e:
         pass
