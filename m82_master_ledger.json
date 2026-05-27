@@ -5,36 +5,69 @@
         "alpha_signature": "#M82",
         "legal_shield_jurisdiction": "U.S. Federal / UK Law Anchor",
         "audit_firm_tier_1": "Deloitte Nashville / Global (US GAAP/IFRS)",
-        "investment_philosophy": "Deep Business / Structural Monopoly"
+        "investment_philosophy": "Deep Business / Sovereign Infrastructure Clearing"
+    },
+    "political_stability_rider": {
+        "framework_status": "TRANSITION-AGNOSTIC",
+        "regulatory_anchor": "U.S. Federal Licenses (OFAC Waiver Systems)",
+        "b2b_operator_contracts": "Secured under Delaware Jurisdiction"
+    },
+    "capital_engineering_metrics": {
+        "consolidated_leverage_debt_ebitda": "3.5x to 4.5x",
+        "interest_rate_hedging_target": ">= 80% Fixed-Rate Debt Protection",
+        "preferred_hurdle_return": "8% Compounded (European Waterfall Structure)"
+    },
+    "caribbean_us_venezuela_corridor_v2026": {
+        "corridor_status": "RESTRUCTURING_HIGH_VALUE",
+        "venezuela_production_floor_bpd": 1050000.0,
+        "crude_grade_target": "Merey 16 Heavy Blend",
+        "political_transition_framework": {
+            "interim_executive": "Delcy Rodríguez (Presidenta Interina)",
+            "operation_code": "Absolute Resolve (US Interv. Post-Maduro Capture)",
+            "key_economic_brokers": [
+                "Nicolasito Maduro Guerra",
+                "Jorge Rodríguez"
+            ]
+        },
+        "financial_clearing_architecture": {
+            "escrow_account_jurisdiction": "U.S. Treasury Controlled Systems",
+            "primary_clearing_banks": [
+                "HSBC Holdings PLC",
+                "Bank of America"
+            ],
+            "legal_reforms_enacted": [
+                "Privatization Reform",
+                "Hydrocarbons Law Relaxation",
+                "Amnesty Bill Execution"
+            ]
+        },
+        "western_corporate_footprint": {
+            "chevron_joint_ventures": {
+                "status": "EXPANDED_OPERATIONS_SIGNED",
+                "production_share_pct": 25.0,
+                "asset_reconfigurations": "Relinquished Macuira, Loran Gas & Petroindependiente"
+            },
+            "incoming_major_evaluations": [
+                "ExxonMobil",
+                "ConocoPhillips",
+                "Shell Gas Deal Expansion"
+            ]
+        },
+        "caribbean_logistics_nodes": {
+            "panama_canal_clearing": "GREEN_STATUS (CK Hutchison Port Detention Decreased)",
+            "refining_destination_hubs": [
+                "U.S. Gulf Coast PADD 3",
+                "Citgo Refinery Systems (OFAC Shield Active)"
+            ]
+        }
     },
     "spacex_historic_ipo_node": {
         "ticker_reserved": "SPCX (Nasdaq)",
-        "form_s1_filing_date": "2026-05-20",
         "estimated_listing_date": "2026-06-12",
         "target_valuation_range_usd": "1.75T to 2.0T",
-        "fundraising_target_usd": "40B to 80B",
-        "underwriting_lead_left": "Goldman Sachs & Co.",
         "capital_restructuring": {
             "stock_split_ratio": "5-for-1",
-            "pre_split_fair_value_usd": 526.59,
-            "post_split_fair_value_usd": 105.32,
-            "insider_selling_lockup_musk": "NO_SALE_COMMITMENT"
-        },
-        "financial_metrics_2025": {
-            "total_revenue_usd": 18700000000.0,
-            "starlink_contribution_usd": 11400000000.0,
-            "adjusted_ebitda_usd": 6600000000.0,
-            "ai_hardware_capex_annual_usd": 13000000000.0,
-            "commercial_anchor_lease": {
-                "counterparty": "Anthropic",
-                "annual_revenue_usd": 15000000000.0,
-                "duration_years": 3
-            }
-        },
-        "hardware_catalyst": {
-            "architecture_version": "Starship V3",
-            "propulsion_system": "Raptor 3 Engine",
-            "cost_reduction_target_per_kg": ">= 99.0% vs historical average"
+            "post_split_fair_value_usd": 105.32
         }
     },
     "macro_lseg_workspace_market_closing": {
@@ -42,38 +75,9 @@
         "nasdaq_composite": 26656.18,
         "sp500_index": 7519.12,
         "tsla_us_spot": 437.78,
-        "qcom_us_spot": 227.28,
-        "amzn_us_spot": 270.255,
         "brent_crude_settle_usd": 95.92,
         "wti_crude_settle_usd": 88.7,
         "strait_of_hormuz_restriction_status": "DRAFT_FRAMEWORK_REOPENING"
-    },
-    "global_banking_clearing_nodes": {
-        "hsbc_holdings_plc": {
-            "headquarters": "8 Canada Square, London, E14 5HQ, United Kingdom",
-            "group_chief_executive_officer": "Mr. Georges Bahjat Elhedery"
-        }
-    },
-    "panama_canal_geopolitical_friction": {
-        "chinese_foreign_minister": "Wang Yi",
-        "panamanian_foreign_minister": "Martínez Acha",
-        "ck_hutchison_corporate_core": {
-            "headquarters": "48th Floor, Cheung Kong Center, Hong Kong",
-            "executive_chairman": "Mr. Tzar Kuoi (Victor) Li, LL.D."
-        }
-    },
-    "geopolitical_transition_timeline_2026": {
-        "white_house_transition_coordinators": [
-            "Marco Rubio",
-            "Pete Hegseth",
-            "Stephen Miller",
-            "JD Vance"
-        ],
-        "venezuela_interim_executive": "Delcy Rodríguez",
-        "epicenter_horizon_june_19": {
-            "focus": "Energy Settle & Migration Control (Miller/Delcy Escrow Pact)",
-            "status": "LOCKED_OPERATIONAL"
-        }
     },
     "system_compliance_gate": {
         "status": "GREEN_COMPLIANT",
