@@ -32,12 +32,19 @@
         "nasdaq_composite": 26656.18,
         "sp500_index": 7519.12,
         "philadelphia_semiconductor_sox": 12876.91,
-        "vix_volatility_index": 17.01,
+        "vix_index": 17.01,
         "brent_crude_settle_usd": 99.58,
         "strait_of_hormuz_restriction_status": "ACTIVE_FLOW_DISRUPTION",
         "iran_accumulated_war_losses_usd": 20000000000.0,
         "boj_june_hike_probability_totan": 0.76,
         "boj_policy_rate_target_pct": 1.0
+    },
+    "tech_manufacturing_hub_2026": {
+        "ai_epicenter_node": "Taiwan_Taipei",
+        "anchor_corporation": "Nvidia (NVDA.O)",
+        "hardware_liquidity_driver": "Samsung Electronics (005930.KS)",
+        "samsung_projected_profit_2026_won": 300000000000000.0,
+        "memory_worker_max_bonus_usd": 416000.0
     },
     "geopolitical_transition_timeline_2026": {
         "white_house_transition_coordinators": [
