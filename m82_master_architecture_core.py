@@ -56,23 +56,22 @@ MASTER_DATABASE = {
         "sp500_index": 7519.12,
         "philadelphia_semiconductor_sox": 12876.91,
         "kospi_seoul_index": 8302.84,
-        "kospi_annual_gain_pct": 97.0,
         "brent_crude_settle_usd": 97.85,
         "wti_crude_settle_usd": 91.97,
-        "bitcoin_usd_close": 75241.38,
-        "boj_june_hike_probability_totan": 0.76
+        "gold_ounce_usd": 4498.28
     },
     "tech_manufacturing_hub_2026": {
-        "sk_hynix_market_cap": "1_TRILLION_USD",
-        "sk_hynix_daily_surge_pct": 13.1,
-        "samsung_electronics_surge_pct": 6.2,
+        "ai_epicenter_node": "Taiwan_Taipei",
+        "anchor_corporation": "Nvidia (NVDA.O)",
+        "nvidia_taiwan_epicenter_investment_usd": 150000000000.0,
+        "primary_foundry_partner": "TSMC (2330.TW)",
+        "hq_operation_target_year": 2030,
         "samsung_vietnam_expansion_usd": 1500000000.0,
-        "micron_wall_street_surge_pct": 19.0
+        "sk_hynix_market_cap": "1_TRILLION_USD"
     },
     "dhs_sanctuary_city_airport_plan": {
         "homeland_security_secretary": "Markwayne Mullin",
-        "tactical_threat": "Cease international traveler and cargo processing at sanctuary airports",
-        "pressure_catalyst": "FIFA World Cup June 2026 Traffic"
+        "tactical_threat": "Cease international traveler and cargo processing at sanctuary airports"
     },
     "geopolitical_transition_timeline_2026": {
         "white_house_transition_coordinators": ["Marco Rubio", "Pete Hegseth", "Stephen Miller", "JD Vance"],
@@ -92,7 +91,7 @@ MASTER_DATABASE = {
 }
 
 def execute_git_integration():
-    logger.info("Indexando cierre de mercados asiáticos Dow Jones en Ledger M82...")
+    logger.info("Inyectando mega-inversión de Nvidia en Taiwán dentro de Ledger M82...")
     try:
         with open("m82_master_ledger.json", "w", encoding="utf-8") as json_file:
             json.dump(MASTER_DATABASE, json_file, indent=4, ensure_ascii=False)
@@ -106,7 +105,7 @@ def execute_git_integration():
         
     try:
         subprocess.run(["git", "add", "m82_master_architecture_core.py", "m82_master_ledger.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "Update #M82 - Asia Markets Supercycle and Brent Calibrated"], capture_output=True)
+        subprocess.run(["git", "commit", "-m", "Update #M82 - Nvidia $150B Annual Taiwan Node Injected"], capture_output=True)
         logger.info("Cambios consolidados localmente en Termux.")
     except Exception as e:
         pass
