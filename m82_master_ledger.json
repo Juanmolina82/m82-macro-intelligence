@@ -28,18 +28,27 @@
         "dow_jones_industrial": 50461.68,
         "nasdaq_composite": 26656.18,
         "sp500_index": 7519.12,
-        "philadelphia_semiconductor_sox": 12876.91,
-        "kospi_seoul_index": 8302.84,
         "brent_crude_settle_usd": 97.85,
-        "wti_crude_settle_usd": 91.97
+        "wti_crude_settle_usd": 91.97,
+        "gold_ounce_usd": 4498.28
+    },
+    "blackrock_institutional_mining_ma": {
+        "key_speaker": "Olivia Markham (BlackRock Managing Director)",
+        "strategic_stance": "Bullish on large scale mining consolidation",
+        "driver": "Attract U.S. generalist investors via large liquid equities",
+        "potential_mega_merger_target": "Glencore & Rio Tinto ($240B projected)",
+        "implicated_anchors": [
+            "BHP",
+            "Rio Tinto",
+            "Glencore"
+        ]
     },
     "tech_manufacturing_hub_2026": {
         "ai_epicenter_node": "Taiwan_Taipei",
         "anchor_foundry_corporation": "TSMC (2330.TW / TSM)",
         "tsmc_3nm_price_hike_pct": 15.0,
         "nvidia_taiwan_epicenter_investment_usd": 150000000000.0,
-        "sk_hynix_market_cap": "1_TRILLION_USD",
-        "samsung_vietnam_expansion_usd": 1500000000.0
+        "sk_hynix_market_cap": "1_TRILLION_USD"
     },
     "dhs_sanctuary_city_airport_plan": {
         "homeland_security_secretary": "Markwayne Mullin",
@@ -60,9 +69,6 @@
         "venezuela_interim_executive": "Delcy Rodríguez",
         "epicenter_horizon_june_19": {
             "focus": "Energy Settle & Migration Control (Miller/Delcy Escrow Pact)"
-        },
-        "bridge_horizon_december": {
-            "focus": "MCM Return - Electoral Calendar Activation & Institutional Legalization"
         }
     },
     "system_compliance_gate": {

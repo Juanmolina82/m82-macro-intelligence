@@ -54,18 +54,23 @@ MASTER_DATABASE = {
         "dow_jones_industrial": 50461.68,
         "nasdaq_composite": 26656.18,
         "sp500_index": 7519.12,
-        "philadelphia_semiconductor_sox": 12876.91,
-        "kospi_seoul_index": 8302.84,
         "brent_crude_settle_usd": 97.85,
-        "wti_crude_settle_usd": 91.97
+        "wti_crude_settle_usd": 91.97,
+        "gold_ounce_usd": 4498.28
+    },
+    "blackrock_institutional_mining_ma": {
+        "key_speaker": "Olivia Markham (BlackRock Managing Director)",
+        "strategic_stance": "Bullish on large scale mining consolidation",
+        "driver": "Attract U.S. generalist investors via large liquid equities",
+        "potential_mega_merger_target": "Glencore & Rio Tinto ($240B projected)",
+        "implicated_anchors": ["BHP", "Rio Tinto", "Glencore"]
     },
     "tech_manufacturing_hub_2026": {
         "ai_epicenter_node": "Taiwan_Taipei",
         "anchor_foundry_corporation": "TSMC (2330.TW / TSM)",
         "tsmc_3nm_price_hike_pct": 15.0,
         "nvidia_taiwan_epicenter_investment_usd": 150000000000.0,
-        "sk_hynix_market_cap": "1_TRILLION_USD",
-        "samsung_vietnam_expansion_usd": 1500000000.0
+        "sk_hynix_market_cap": "1_TRILLION_USD"
     },
     "dhs_sanctuary_city_airport_plan": {
         "homeland_security_secretary": "Markwayne Mullin",
@@ -77,9 +82,6 @@ MASTER_DATABASE = {
         "venezuela_interim_executive": "Delcy Rodríguez",
         "epicenter_horizon_june_19": {
             "focus": "Energy Settle & Migration Control (Miller/Delcy Escrow Pact)"
-        },
-        "bridge_horizon_december": {
-            "focus": "MCM Return - Electoral Calendar Activation & Institutional Legalization"
         }
     },
     "system_compliance_gate": {
@@ -89,7 +91,7 @@ MASTER_DATABASE = {
 }
 
 def execute_git_integration():
-    logger.info("Indexando incremento de precios de TSMC (3nm) en Ledger M82...")
+    logger.info("Indexando vector de consolidación minera de BlackRock en Ledger M82...")
     try:
         with open("m82_master_ledger.json", "w", encoding="utf-8") as json_file:
             json.dump(MASTER_DATABASE, json_file, indent=4, ensure_ascii=False)
@@ -103,7 +105,7 @@ def execute_git_integration():
         
     try:
         subprocess.run(["git", "add", "m82_master_architecture_core.py", "m82_master_ledger.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "Update #M82 - TSMC 3nm 15 Pct Pricing Surge Injected"], capture_output=True)
+        subprocess.run(["git", "commit", "-m", "Update #M82 - BlackRock Mining M&A Thesis Injected"], capture_output=True)
         logger.info("Cambios consolidados localmente en Termux.")
     except Exception as e:
         pass
