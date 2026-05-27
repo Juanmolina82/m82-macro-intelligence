@@ -5,7 +5,7 @@
         MOLINA HOLDINGS LLC & MOLINA GLOBAL LLC (#M82)
 ==================================================================================
 Enterprise Analytical Architecture & Deep Value Model - K-Mobile Platform
-Secure Master Ledger Database & Financial Pipeline Model (V3.7.0 PRODUCTION)
+Secure Master Ledger Database & Financial Pipeline Model (V3.8.0 REFINING-EDGE)
 Target Repository: Juanmolina82/m82-macro-intelligence
 Date: May 27, 2026 | System Gate Status: GREEN_COMPLIANT
 ==================================================================================
@@ -22,7 +22,7 @@ logging.basicConfig(
     format='[%(asctime)s] [%(levelname)s] [%(name)s] %(message)s',
     handlers=[logging.StreamHandler(sys.stdout)]
 )
-logger = logging.getLogger("#M82-GRID-INTELLIGENCE")
+logger = logging.getLogger("#M82-REFINING-EDGE")
 
 MASTER_DATABASE = {
     "corporate_governance_v32": {
@@ -31,44 +31,46 @@ MASTER_DATABASE = {
         "alpha_signature": "#M82",
         "legal_shield_jurisdiction": "U.S. Federal / UK Law Anchor",
         "audit_firm_tier_1": "Deloitte Nashville / Global (US GAAP/IFRS)",
-        "investment_philosophy": "Deep Business / Infrastructure Capacity Arbitrage"
+        "investment_philosophy": "Deep Business / Refined Products & Logistics Arbitrage"
+    },
+    "refining_and_distillates_arbitrage": {
+        "ebob_gasoline_crack_usd_bbl": 21.25,
+        "ebob_previous_crack_usd_bbl": 26.23,
+        "mow_argus_e5_barge_trades_tons": 24000.0,
+        "market_participants": {"sellers": ["BP", "Exxon"], "buyer": "TotalEnergies"},
+        "european_export_contraction": {
+            "may_average_bpd": 788000.0,
+            "april_average_bpd": 961000.0,
+            "data_source": "Kpler"
+        },
+        "us_domestic_logistics_friction": {
+            "policy_action": "Trump foreign-flagged shipping waivers",
+            "impact_status": "INEFFECTIVE_DUE_TO_ELEVATED_SHIPPING_RATES",
+            "mitigation_under_review": "Federal Gas Tax Holiday legislated with Congress"
+        },
+        "japanese_subsidy_benchmark": {
+            "mechanism_switch": "From Brent crude to Dubai crude",
+            "driver": "Narrowing spread between Brent and Dubai grades"
+        }
+    },
+    "us_natural_gas_storage_eia": {
+        "estimated_weekly_injection_bcf": 95.0,
+        "prior_week_injection_bcf": 101.0,
+        "projected_total_stockpiles_tcf": 2.486,
+        "deviation_vs_five_year_average_pct": 6.3,
+        "total_degree_days_tdd": 71.0,
+        "thirty_year_normal_tdd": 61.0
     },
     "us_nuclear_grid_outages_nrc": {
         "report_date": "2026-05-27",
         "total_us_capacity_mw": 96986.0,
         "capacity_offline_mw": 5581.0,
-        "capacity_offline_pct": 6.0,
-        "previous_day_offline_mw": 5198.0,
-        "five_year_average_offline_mw": 7409.0,
-        "critical_units_offline": {
-            "LaSalle_1": {"operator": "Exelon", "mw": 1131, "state": "IL", "restart": "2026-06-05", "status": "NEW_OUTAGE"},
-            "Comanche_Peak_2": {"operator": "Luminant", "mw": 1195, "state": "TX", "restart": "2026-05-29"},
-            "Saint_Lucie_2": {"operator": "NextEra", "mw": 1152, "state": "FL", "restart": "2026-05-29"},
-            "Surry_2": {"operator": "Dominion", "mw": 838, "state": "VA", "restart": "2026-05-29"},
-            "Oconee_3": {"operator": "Duke", "mw": 759, "state": "SC", "restart": "2026-05-29"}
-        }
-    },
-    "refining_and_distillates_arbitrage": {
-        "european_diesel_profit_margin_change_pct": -4.0,
-        "ice_low_sulphur_gasoil_vs_brent_usd_bbl": 41.74,
-        "kpler_eu_uk_import_forecast_bpd": 800000.0,
-        "corporate_hedging_actions": {
-            "TotalEnergies": "Fuel price cap extended through June 2026 due to Middle East crisis"
-        }
-    },
-    "latin_america_clean_energy_infrastructure": {
-        "sponsor": "KKR / ContourGlobal",
-        "asset_location": "Chile",
-        "asset_type": "Solar-plus-Storage Utility Scale",
-        "battery_duration_hours": 6.5,
-        "dispatchable_solar_power_mw": 200.0,
-        "market_significance": "Longest-duration battery storage system in Latin America"
+        "capacity_offline_pct": 6.0
     },
     "macro_lseg_workspace_market_closing": {
         "dow_jones_industrial": 50674.30,
         "nasdaq_composite": 26616.86,
         "sp500_index": 7515.45,
-        "goldman_sachs_target_2026": 8000.0,
         "brent_crude_settle_usd": 95.92,
         "wti_crude_settle_usd": 88.70,
         "strait_of_hormuz_restriction_status": "TRUMP_SANCTIONS_ACTIVE_GAS_TAX_HOLIDAY_TALKS"
@@ -81,7 +83,7 @@ MASTER_DATABASE = {
 }
 
 def execute_git_integration():
-    logger.info("Inyectando Inteligencia de Red Eléctrica y Spreads en Ledger #M82...")
+    logger.info("Alineando spreads de refinación globales e inventarios EIA en Ledger #M82...")
     try:
         with open("m82_master_ledger.json", "w", encoding="utf-8") as json_file:
             json.dump(MASTER_DATABASE, json_file, indent=4, ensure_ascii=False)
@@ -95,7 +97,7 @@ def execute_git_integration():
         
     try:
         subprocess.run(["git", "add", "m82_master_architecture_core.py", "m82_master_ledger.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "Sync #M82 - NRC Outages, Diesel Margins Crash & KKR Chile BESS Added"], capture_output=True)
+        subprocess.run(["git", "commit", "-m", "Sync #M82 - Ebob Crack Crash, Gas Storage Poll & Trump Gas Tax Talks"], capture_output=True)
         logger.info("Cambios consolidados localmente en Termux.")
     except Exception as e:
         pass
