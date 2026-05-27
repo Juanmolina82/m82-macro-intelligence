@@ -5,7 +5,7 @@
         MOLINA HOLDINGS LLC & MOLINA GLOBAL LLC (#M82)
 ==================================================================================
 Enterprise Analytical Architecture & Deep Value Model - K-Mobile Platform
-Secure Master Ledger Database & Financial Pipeline Model (V3.8.0 REFINING-EDGE)
+Secure Master Ledger Database & Financial Pipeline Model (V3.9.0 INDUSTRIAL-EDGE)
 Target Repository: Juanmolina82/m82-macro-intelligence
 Date: May 27, 2026 | System Gate Status: GREEN_COMPLIANT
 ==================================================================================
@@ -22,7 +22,7 @@ logging.basicConfig(
     format='[%(asctime)s] [%(levelname)s] [%(name)s] %(message)s',
     handlers=[logging.StreamHandler(sys.stdout)]
 )
-logger = logging.getLogger("#M82-REFINING-EDGE")
+logger = logging.getLogger("#M82-INDUSTRIAL-EDGE")
 
 MASTER_DATABASE = {
     "corporate_governance_v32": {
@@ -31,49 +31,47 @@ MASTER_DATABASE = {
         "alpha_signature": "#M82",
         "legal_shield_jurisdiction": "U.S. Federal / UK Law Anchor",
         "audit_firm_tier_1": "Deloitte Nashville / Global (US GAAP/IFRS)",
-        "investment_philosophy": "Deep Business / Refined Products & Logistics Arbitrage"
+        "investment_philosophy": "Deep Business / High Yield Capital & Industrial Infrastructure"
+    },
+    "aerospace_and_transportation_intelligence": {
+        "united_airlines_forecast": {
+            "target_pre_tax_margin": "Double-Digit (2027)",
+            "catalyst": "Fuel cost cooling & persistent consumer demand resilience",
+            "historical_impediment": "Iran conflict fuel price spikes"
+        },
+        "ge_aerospace_aftermarket_metrics": {
+            "spare_parts_order_growth_pct": 40.0,
+            "prior_quarter_growth_pct": 30.0,
+            "adjusted_eps_forecast_2026": {"lower_bound": 7.10, "upper_bound": 7.40},
+            "shop_visit_dynamics": "Transitioning to comprehensive performance restoration for LEAP engines",
+            "supply_chain_status": "Pressure on suppliers due to skepticism over production rate increases"
+        }
+    },
+    "precious_metals_and_monetary_policy": {
+        "gold_spot_xau_usd": 4444.64,
+        "two_month_status": "MINIMUM_SUPPORT_REACHED",
+        "macro_risk_driver": "Prolonged Middle East conflict expanding structural inflation",
+        "federal_reserve_rate_outlook": {
+            "kashkari_stance": "Focused on containing rising inflationary risks",
+            "market_implied_hike_bps": 25.0,
+            "target_horizon": "End of 2026"
+        },
+        "co_metals": {
+            "silver_spot_xag_usd": 74.82,
+            "platinum_spot_xpt_usd": 1919.30,
+            "palladium_spot_xpd_usd": 1384.86
+        }
     },
     "refining_and_distillates_arbitrage": {
         "ebob_gasoline_crack_usd_bbl": 21.25,
-        "ebob_previous_crack_usd_bbl": 26.23,
-        "mow_argus_e5_barge_trades_tons": 24000.0,
-        "market_participants": {"sellers": ["BP", "Exxon"], "buyer": "TotalEnergies"},
-        "european_export_contraction": {
-            "may_average_bpd": 788000.0,
-            "april_average_bpd": 961000.0,
-            "data_source": "Kpler"
-        },
-        "us_domestic_logistics_friction": {
-            "policy_action": "Trump foreign-flagged shipping waivers",
-            "impact_status": "INEFFECTIVE_DUE_TO_ELEVATED_SHIPPING_RATES",
-            "mitigation_under_review": "Federal Gas Tax Holiday legislated with Congress"
-        },
-        "japanese_subsidy_benchmark": {
-            "mechanism_switch": "From Brent crude to Dubai crude",
-            "driver": "Narrowing spread between Brent and Dubai grades"
-        }
-    },
-    "us_natural_gas_storage_eia": {
-        "estimated_weekly_injection_bcf": 95.0,
-        "prior_week_injection_bcf": 101.0,
-        "projected_total_stockpiles_tcf": 2.486,
-        "deviation_vs_five_year_average_pct": 6.3,
-        "total_degree_days_tdd": 71.0,
-        "thirty_year_normal_tdd": 61.0
-    },
-    "us_nuclear_grid_outages_nrc": {
-        "report_date": "2026-05-27",
-        "total_us_capacity_mw": 96986.0,
-        "capacity_offline_mw": 5581.0,
-        "capacity_offline_pct": 6.0
+        "european_diesel_profit_margin_change_pct": -4.0
     },
     "macro_lseg_workspace_market_closing": {
         "dow_jones_industrial": 50674.30,
         "nasdaq_composite": 26616.86,
         "sp500_index": 7515.45,
         "brent_crude_settle_usd": 95.92,
-        "wti_crude_settle_usd": 88.70,
-        "strait_of_hormuz_restriction_status": "TRUMP_SANCTIONS_ACTIVE_GAS_TAX_HOLIDAY_TALKS"
+        "wti_crude_settle_usd": 88.70
     },
     "system_compliance_gate": {
         "status": "GREEN_COMPLIANT",
@@ -83,7 +81,7 @@ MASTER_DATABASE = {
 }
 
 def execute_git_integration():
-    logger.info("Alineando spreads de refinación globales e inventarios EIA en Ledger #M82...")
+    logger.info("Inyectando Inteligencia Industrial Bernstein y Soportes de Oro en Ledger #M82...")
     try:
         with open("m82_master_ledger.json", "w", encoding="utf-8") as json_file:
             json.dump(MASTER_DATABASE, json_file, indent=4, ensure_ascii=False)
@@ -97,7 +95,7 @@ def execute_git_integration():
         
     try:
         subprocess.run(["git", "add", "m82_master_architecture_core.py", "m82_master_ledger.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "Sync #M82 - Ebob Crack Crash, Gas Storage Poll & Trump Gas Tax Talks"], capture_output=True)
+        subprocess.run(["git", "commit", "-m", "Sync #M82 - Bernstein Aviations Updates, Gold Two-Month Low & Fed Hike Arb Added"], capture_output=True)
         logger.info("Cambios consolidados localmente en Termux.")
     except Exception as e:
         pass
