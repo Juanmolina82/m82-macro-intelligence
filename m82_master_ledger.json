@@ -1,9 +1,9 @@
 {
     "_metadata": {
         "system_signature": "MOLINA_HOLDINGS_M82",
-        "watermark_hash": "M82_MASTER_LEDGER_V5.3",
-        "last_sync_utc": "2026-05-27T20:16:31.420881Z",
-        "schema_version": "5.3.0"
+        "watermark_hash": "M82_MASTER_LEDGER_V5.4",
+        "last_sync_utc": "2026-05-27T20:27:20.753711Z",
+        "schema_version": "5.4.0"
     },
     "corporate_governance": {
         "investment_manager": "MOLINA HOLDINGS LLC (Tennessee)",
@@ -11,24 +11,30 @@
         "jurisdiction_anchor": "U.S. Federal / UK Law",
         "audit_protocol": "US GAAP / IFRS by Deloitte Global"
     },
-    "sovereign_energy_corridor_state_dept_framework": {
-        "geopolitical_doctrine": "Trump-Rubio Three-Phase Bilateral Framework",
-        "phases": {
-            "phase_1": "Stabilization and risk insulation (Prevention of systemic chaos)",
-            "phase_2": "Recovery (Fair Western & American midstream enterprise access / Reconciliation)",
-            "phase_3": "Structured Legal Transition under Rule of Law"
+    "maritime_interdiction_and_supply_chain_shocks": {
+        "caribbean_isolation_metrics": {
+            "vessel_name": "Universal (Russian Flagged / Loaded)",
+            "payload_bbl": 300000.0,
+            "event": "Forced course diversion away from Cuba maritime zone",
+            "macro_catalyst": "Enforcement of strict U.S. tariff threats and total cut-off of the legacy U.S.-Venezuela energy export pipeline under current administration parameters"
         },
-        "validated_physical_flows": {
-            "volume_delivered_to_us_bbl": 10000000.0,
-            "pricing_basis": "Market rates / Spot market transparency",
-            "financial_clearing_structure": "U.S. Treasury monitored and controlled escrow accounts",
-            "independent_accounting_auditor": "KPMG"
-        },
-        "operational_corridor_capacity_bpd": 1230000.0
+        "shadow_fleet_decommissioning": {
+            "authorized_recycler": "GMS (Dubai / U.S. Incorporated Hub)",
+            "mechanism": "U.S. Treasury OFAC specific licenses for scrapping sanctioned container and tanker ships",
+            "strategic_impact": "Monetized dismantling of non-compliant naval assets to structurally permanently collapse the parallel crude trade networks of Iran and Russia"
+        }
     },
-    "tier_1_banking_and_logistics_nodes": {
-        "hong_kong_infrastructure_axis": "CK Hutchison Holdings Ltd (Ports, Midstream & Telecom)",
-        "global_liquidity_clearing": "HSBC Holdings PLC (Georges Elhedery / Pam Kaur)"
+    "global_commodity_arbitrage_and_pricing_settlements": {
+        "crude_oil_market_correction": {
+            "wti_light_sweet_settle_usd": 88.68,
+            "wti_daily_drop_pct": -5.55,
+            "brent_crude_settle_usd": 94.29,
+            "brent_daily_drop_pct": -5.31,
+            "pricing_driver": "Draft 3-Phase framework leak regarding the U.S.-Oman-Iran reopening of the Strait of Hormuz (14M bpd supply risk premium deflation)"
+        },
+        "demand_destruction_signals": {
+            "aviation_sector": "India's top two domestic airlines cutting June/July schedules sharply due to margin pressure"
+        }
     },
     "capital_engineering_limits": {
         "leverage_ceiling": "3.5x to 4.5x Debt/EBITDA",
