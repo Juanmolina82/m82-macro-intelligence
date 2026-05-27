@@ -9,13 +9,10 @@
     "political_stability_rider": {
         "framework_status": "TRANSITION-AGNOSTIC",
         "regulatory_anchor": "U.S. Federal Licenses (OFAC Waiver Systems)",
-        "b2b_operator_contracts": "Secured under Delaware Jurisdiction",
-        "local_entity_insulation": "MAXIMAL"
+        "b2b_operator_contracts": "Secured under Delaware Jurisdiction"
     },
     "capital_engineering_metrics": {
         "consolidated_leverage_debt_ebitda": "3.5x to 4.5x",
-        "project_level_maturity_years": "12 to 15",
-        "corporate_level_maturity_years": "7 to 10",
         "interest_rate_hedging_target": ">= 80% Fixed-Rate Debt Protection",
         "preferred_hurdle_return": "8% Compounded (European Waterfall Structure)"
     },
@@ -32,19 +29,26 @@
         "nasdaq_composite": 26656.18,
         "sp500_index": 7519.12,
         "philadelphia_semiconductor_sox": 12876.91,
-        "vix_index": 17.01,
         "brent_crude_settle_usd": 99.58,
-        "strait_of_hormuz_restriction_status": "ACTIVE_FLOW_DISRUPTION",
-        "iran_accumulated_war_losses_usd": 20000000000.0,
         "boj_june_hike_probability_totan": 0.76,
         "boj_policy_rate_target_pct": 1.0
     },
-    "tech_manufacturing_hub_2026": {
-        "ai_epicenter_node": "Taiwan_Taipei",
-        "anchor_corporation": "Nvidia (NVDA.O)",
-        "hardware_liquidity_driver": "Samsung Electronics (005930.KS)",
-        "samsung_projected_profit_2026_won": 300000000000000.0,
-        "memory_worker_max_bonus_usd": 416000.0
+    "dhs_sanctuary_city_airport_plan": {
+        "homeland_security_secretary": "Markwayne Mullin",
+        "tactical_threat": "Cease international traveler and cargo processing at sanctuary airports",
+        "key_affected_hubs": [
+            "JFK",
+            "LAX",
+            "ORD",
+            "EWR",
+            "PHL",
+            "BOS",
+            "DEN",
+            "SEA",
+            "SFO"
+        ],
+        "pressure_catalyst": "FIFA World Cup June 2026 Traffic",
+        "systemic_risk": "High disruption to international commerce and travel industry margins"
     },
     "geopolitical_transition_timeline_2026": {
         "white_house_transition_coordinators": [
@@ -59,18 +63,11 @@
             "Richard Grenell"
         ],
         "venezuela_interim_executive": "Delcy Rodríguez",
-        "chavismo_economic_alignment": [
-            "Nicolasito Maduro Guerra",
-            "Jorge Rodríguez"
-        ],
-        "caracas_embassy_reopening_target": "1H 2026",
         "epicenter_horizon_june_19": {
-            "focus": "Energy Settle & Migration Control (Miller/Delcy Escrow Pact)",
-            "status": "LOCKED_OPERATIONAL"
+            "focus": "Energy Settle & Migration Control (Miller/Delcy Escrow Pact)"
         },
         "bridge_horizon_december": {
-            "focus": "MCM Return - Electoral Calendar Activation & Institutional Legalization",
-            "status": "COMPLIANCE_STAMP_PENDING"
+            "focus": "MCM Return - Electoral Calendar Activation & Institutional Legalization"
         }
     },
     "system_compliance_gate": {
