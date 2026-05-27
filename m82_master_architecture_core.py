@@ -60,10 +60,16 @@ MASTER_DATABASE = {
     "panama_canal_geopolitical_friction": {
         "chinese_foreign_minister": "Wang Yi",
         "panamanian_foreign_minister": "Martínez Acha",
-        "china_stance": "Urged protection of Chinese firm rights, demands zero third-party interference",
-        "underlying_dispute": "Panama revoked concession of two ports to CK Hutchison (Hong Kong)",
-        "tactical_status": "Detention of Panama-flagged ships in China decreasing according to President Mulino",
-        "strategic_risk": "Asymmetric port-state control leverage used by Beijing"
+        "underlying_dispute": "Panama-CK Hutchison port concession withdrawal",
+        "boc_panama_liquidity_injection": {
+            "instrument": "3-Year Floating Rate Note (FRN)",
+            "size_usd": 500000000.0,
+            "pricing_index": "SOFR + 35bp",
+            "initial_guidance_spread": "90bp area",
+            "total_book_order_usd": 2000000000.0,
+            "rating_profile": "A1/A (Moody's/Fitch)"
+        },
+        "strategic_purpose": "Capital buffer and trade finance deployment for Chinese entities under Western pressure"
     },
     "blackrock_institutional_mining_ma": {
         "key_speaker": "Olivia Markham (BlackRock Managing Director)",
@@ -89,7 +95,7 @@ MASTER_DATABASE = {
 }
 
 def execute_git_integration():
-    logger.info("Indexando tregua portuaria de CK Hutchison-Panamá en Ledger M82...")
+    logger.info("Indexando bono de $500M de Bank of China Panamá en Ledger M82...")
     try:
         with open("m82_master_ledger.json", "w", encoding="utf-8") as json_file:
             json.dump(MASTER_DATABASE, json_file, indent=4, ensure_ascii=False)
@@ -103,7 +109,7 @@ def execute_git_integration():
         
     try:
         subprocess.run(["git", "add", "m82_master_architecture_core.py", "m82_master_ledger.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "Update #M82 - CK Hutchison Panama Port Background Injected"], capture_output=True)
+        subprocess.run(["git", "commit", "-m", "Update #M82 - BOC Panama $500M SOFR Note Injected"], capture_output=True)
         logger.info("Cambios consolidados localmente en Termux.")
     except Exception as e:
         pass
