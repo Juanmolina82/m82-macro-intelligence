@@ -57,17 +57,15 @@ MASTER_DATABASE = {
         "philadelphia_semiconductor_sox": 12876.91,
         "kospi_seoul_index": 8302.84,
         "brent_crude_settle_usd": 97.85,
-        "wti_crude_settle_usd": 91.97,
-        "gold_ounce_usd": 4498.28
+        "wti_crude_settle_usd": 91.97
     },
     "tech_manufacturing_hub_2026": {
         "ai_epicenter_node": "Taiwan_Taipei",
-        "anchor_corporation": "Nvidia (NVDA.O)",
+        "anchor_foundry_corporation": "TSMC (2330.TW / TSM)",
+        "tsmc_3nm_price_hike_pct": 15.0,
         "nvidia_taiwan_epicenter_investment_usd": 150000000000.0,
-        "primary_foundry_partner": "TSMC (2330.TW)",
-        "hq_operation_target_year": 2030,
-        "samsung_vietnam_expansion_usd": 1500000000.0,
-        "sk_hynix_market_cap": "1_TRILLION_USD"
+        "sk_hynix_market_cap": "1_TRILLION_USD",
+        "samsung_vietnam_expansion_usd": 1500000000.0
     },
     "dhs_sanctuary_city_airport_plan": {
         "homeland_security_secretary": "Markwayne Mullin",
@@ -91,7 +89,7 @@ MASTER_DATABASE = {
 }
 
 def execute_git_integration():
-    logger.info("Inyectando mega-inversión de Nvidia en Taiwán dentro de Ledger M82...")
+    logger.info("Indexando incremento de precios de TSMC (3nm) en Ledger M82...")
     try:
         with open("m82_master_ledger.json", "w", encoding="utf-8") as json_file:
             json.dump(MASTER_DATABASE, json_file, indent=4, ensure_ascii=False)
@@ -105,7 +103,7 @@ def execute_git_integration():
         
     try:
         subprocess.run(["git", "add", "m82_master_architecture_core.py", "m82_master_ledger.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "Update #M82 - Nvidia $150B Annual Taiwan Node Injected"], capture_output=True)
+        subprocess.run(["git", "commit", "-m", "Update #M82 - TSMC 3nm 15 Pct Pricing Surge Injected"], capture_output=True)
         logger.info("Cambios consolidados localmente en Termux.")
     except Exception as e:
         pass
