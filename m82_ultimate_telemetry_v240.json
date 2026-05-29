@@ -1,9 +1,10 @@
 {
     "release_metadata": {
-        "version": "24.0.0-GOLD-MASTER",
+        "version": "24.1.0-SNOW-PATCH",
         "as_of_date": "2026-05-29",
         "timestamp_utc": 1780083930,
-        "system_integrity": "100% BALANCED"
+        "system_integrity": "100% BALANCED",
+        "last_update_utc": 1780087489
     },
     "political_governance": {
         "framework": "Manifiesto de Panamá - Por el Gran Acuerdo Nacional",
@@ -40,6 +41,24 @@
                 "twenty_sess_momentum": -8.9,
                 "net_outflow_usd_m": -392.0,
                 "drawdown_off_peak": -36.31
+            },
+            "XLK_Software_Applications": {
+                "sub_sector": "Software - Application",
+                "phase": "LEADING",
+                "catalyst_event": "Snowflake (SNOW.N) record spike +40% pre-market",
+                "metrics": {
+                    "q1_core_revenue_usd_b": 1.33,
+                    "core_revenue_growth_yoy": "34%",
+                    "order_inflow_usd_b": 9.21,
+                    "order_inflow_growth_yoy": "38%",
+                    "full_year_guidance_raised_usd_b": 5.84,
+                    "aws_cloud_deal_usd_b": 6.0
+                },
+                "market_breadth_spillover": {
+                    "Datadog_DDOG": "+9%",
+                    "MongoDB_MDB": "+9%"
+                },
+                "strategic_insight": "La IA impulsa el crecimiento de infraestructura de datos internos, disipando riesgos de obsolescencia por LLMs abiertos."
             }
         }
     },
