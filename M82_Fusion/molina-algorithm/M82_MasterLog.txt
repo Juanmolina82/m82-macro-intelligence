@@ -1,0 +1,39 @@
+[Fri May 15 14:10:56 -04 2026] MARKET_DATA: SYNC_INITIALIZED | MSFT: 415.50 | XOM: 118.20
+[14:23:10] REUTERS_GUIDE: G20_COUNTRIES | ACCESS_CODE: <G20/EQUITY> | STATUS: READY
+[14:23:11] REUTERS_GUIDE: EMERGING_MARKETS | ACCESS_CODE: <EMG/EQUITY1> | STATUS: READY
+[14:23:11] REUTERS_GUIDE: EUROPEAN_EQUITIES | ACCESS_CODE: <EUR/EQUITY> | STATUS: READY
+[14:23:12] REUTERS_GUIDE: WORLD_INDICES | ACCESS_CODE: <WORLD/INDICES1> | STATUS: READY
+[14:23:12] REUTERS_GUIDE: GLOBAL_FUNDS | ACCESS_CODE: <FUNDS> | STATUS: READY
+[14:23:13] REUTERS_GUIDE: EQUITY_DERIVATIVES | ACCESS_CODE: <EQUITY/DERIV> | STATUS: READY
+[14:24:15] REUTERS_INTEL: G20_EQUITY | CODE: <G20/EQUITY> | STATUS: STREAMING
+[14:24:16] REUTERS_INTEL: EMG_MARKETS | CODE: <EMG/EQUITY1> | STATUS: STREAMING
+[14:24:16] REUTERS_INTEL: WORLD_INDICES | CODE: <WORLD/INDICES1> | STATUS: STREAMING
+[14:24:16] REUTERS_INTEL: EQUITY_DERIV | CODE: <EQUITY/DERIV> | STATUS: STREAMING
+[14:24:17] REUTERS_INTEL: GLOBAL_FUNDS | CODE: <FUNDS> | STATUS: STREAMING
+[14:24:17] REUTERS_INTEL: ENERGY_SECTOR | CODE: <ENERGY/EQUITY> | STATUS: STREAMING
+[14:26:42] CRITICAL_INTEL: ALERT: LG58 allows advisory services but blocks direct settlements.
+[14:26:42] CRITICAL_INTEL: MARKET: Bondholders monitoring OFAC guidance for Q3 2026.
+[14:26:42] CRITICAL_INTEL: SYSTEM: Reuters <G20/EQUITY> signals high volatility in debt-linked assets.
+[14:28:08] M82_SYSTEM: MANUAL_OVERRIDE_ACTIVE
+[14:28:08] WATCHDOG: SCANNING OFAC LG58... STATUS: DETECTED
+[14:28:08] REUTERS: <G20/EQUITY> | <EMG/EQUITY1> LOADED
+[14:28:08] CRITICAL_INTEL: ALERT: LG58 allows advisory services but blocks direct settlements.
+[14:28:08] CRITICAL_INTEL: MARKET: Bondholders monitoring OFAC guidance for Q3 2026.
+[14:28:08] CRITICAL_INTEL: SYSTEM: Reuters <G20/EQUITY> signals high volatility in debt-linked assets.
+[14:30:43] CRITICAL_INTEL: ALERT: LG58 allows advisory services but blocks direct settlements.
+[14:30:43] CRITICAL_INTEL: MARKET: Bondholders monitoring OFAC guidance for Q3 2026.
+[14:30:43] CRITICAL_INTEL: SYSTEM: Reuters <G20/EQUITY> signals high volatility in debt-linked assets.
+[14:32:59] CITGO_SIEGE: ALERT: PDVSA 2020 holders demand priority in Delaware auction.
+[14:32:59] CITGO_SIEGE: MARKET: Sovereign bonds rise 2 points on Centerview appointment.
+[14:32:59] CITGO_SIEGE: LEGAL: OFAC GL58 keeps Citgo protective shield until further notice.
+[14:36:32] CRITICAL_INTEL: ALERT: LG58 allows advisory services but blocks direct settlements.
+[14:36:32] CRITICAL_INTEL: MARKET: Bondholders monitoring OFAC guidance for Q3 2026.
+[14:36:32] CRITICAL_INTEL: SYSTEM: Reuters <G20/EQUITY> signals high volatility in debt-linked assets.
+[14:36:36] STATE_51_INTEL: STRATEGY: Centerview Partners drafting 'New Money' framework.
+[14:36:36] STATE_51_INTEL: GOAL: Transition to State 51 (Debt Liquidation & Recovery).
+[14:36:36] STATE_51_INTEL: STATUS: Waiting for OFAC 'Green Light' on secondary market trading.
+[14:38:22] M82_PRO_INTEL: ENERGY: Merey 16 Spot: $ 58.4 | Backing Capital Inflow.
+[14:38:22] M82_PRO_INTEL: RECOVERY: VENZ Sovereign: 38.5% (High Conviction) | PDVSA 2020: 82.0% (Collateral Backed)
+[14:38:22] M82_PRO_INTEL: CITGO_WATCH: PDVSA 2020 Volatility EXTREME | Focus: Delaware Auction Court | Monitoring OFAC GL5.
+[14:39:38] ENERGY: Merey 16 Spot: $ 58.35
+[14:39:38] RECOVERY: VENZ Sovereign: 38.5% (High Conviction) | PDVSA 2020: 82.0% (Collateral Backed)

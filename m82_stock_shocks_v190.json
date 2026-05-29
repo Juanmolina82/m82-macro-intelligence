@@ -1,0 +1,44 @@
+{
+    "log_status": "COMMITTED - SYSTEM EQUITY DATA STREAM BALANCED",
+    "data_date": "2026-05-29",
+    "timestamp_utc": 1780081286,
+    "market_indices": {
+        "dow_jones_djv": 51026.32,
+        "sp500_spx": 7582.97,
+        "nasdaq_composite_ixic": 26973.13
+    },
+    "key_sector_performances_pct": {
+        "information_technology_splrct": 1.65,
+        "financials_spsy": 0.93,
+        "energy_spny": -0.76,
+        "healthcare_spxhc": -1.02,
+        "consumer_staples_splrcs": -1.75
+    },
+    "critical_corporate_shocks": {
+        "ai_hardware_boom": {
+            "entity": "Dell Technologies (DELL.N)",
+            "delta_pct": 29.1,
+            "driver": "Robust AI server demand upgrade"
+        },
+        "usmca_automotive_friction": {
+            "entities": [
+                "GM",
+                "Ford",
+                "Stellantis"
+            ],
+            "status": "Slipped",
+            "driver": "Trump administration considering stricter regional content rules for vehicles"
+        },
+        "space_infrastructure_stall": {
+            "etf": "Procure Space ETF (UFO.O)",
+            "status": "Stalled",
+            "trigger": "Blue Origin rocket explosion / Technical capital dilution"
+        }
+    },
+    "m82_fiduciary_safeguards": {
+        "escrow_nocional_usd": 2330000000,
+        "asset_insulation": "100% Ex-Sovereign protection layer",
+        "audit_framework": "KPMG US (US GAAP Standardized)",
+        "allocation_posture": "Immunized against liquid paper equity risk. Capturing real asset yield through physical leasebacks."
+    }
+}

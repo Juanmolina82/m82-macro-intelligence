@@ -1,0 +1,29 @@
+{
+    "framework_status": "PROCESSED & BOUND - REAL-TIME TELEMETRY ACTIVE",
+    "timestamp_execution": 1780071625,
+    "document_reference": {
+        "title": "Manifiesto de Panamá - Por el Gran Acuerdo Nacional y la Transición hacia la Democracia",
+        "date_signed": "Mayo 2026",
+        "signatories": [
+            "María Corina Machado",
+            "Edmundo González Urrutia",
+            "Plataforma Unitaria Democrática",
+            "Alianza Con Vzla"
+        ]
+    },
+    "strategic_alignment": {
+        "international_backing": "U.S. 3-Phase Plan (Announced by Sec. Marco Rubio)",
+        "leadership_conduction": "María Corina Machado (Designated Leader for Negotiating Team & Strategy)"
+    },
+    "mandatory_compliance_checkpoints": [
+        "Liberación plena de presos políticos (civiles y militares)",
+        "Retorno seguro de los exiliados políticos",
+        "Desmantelamiento del aparato represivo y grupos armados ilegales",
+        "Designación previa de un nuevo CNE independiente y publicación de cronograma electoral"
+    ],
+    "m82_fiduciary_matrix": {
+        "escrow_insulation": "Clean private capital (USD 2.33Bn Notional) completely isolated from legacy sovereign debt",
+        "governance_standard": "Audited under US GAAP by KPMG US to ensure maximum operational transparency",
+        "leverage_cap": "3.5x to 4.5x Debt/EBITDA via Inelastic Leaseback Contracts (Target: 1.23M bpd)"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "manifesto_title": "Manifiesto de Panamá - Por el Gran Acuerdo Nacional",
+    "date_of_issue": "Mayo 2026",
+    "signatories": [
+        {
+            "name": "María Corina Machado",
+            "role": "Conductora del Proceso Democrático / Plataforma Unitara"
+        },
+        {
+            "name": "Edmundo González Urrutia",
+            "role": "Presidente Electo / Alianza Con Vzla"
+        }
+    ],
+    "us_strategic_pivot": {
+        "endorsed_framework": "U.S. 3-Phase Strategic Plan",
+        "announced_by": "Secretary of State Marco Rubio",
+        "regulatory_firewall": "EO 14373 (Foreign Government Deposit Funds) + OFAC GL 58"
+    },
+    "m82_fiduciary_bridge": {
+        "escrow_reserve_usd": 2330000000,
+        "financial_advisor_track": "Centerview Partners Debt Engineering Alignment",
+        "audit_layer": "KPMG US (Full US GAAP Compliance Track)",
+        "operational_modality": "Inelastic Asset Leaseback for Clean Infrastructure Corridor",
+        "target_yield_efficiency": "1.23M bpd Production Transition Capture"
+    }
+}

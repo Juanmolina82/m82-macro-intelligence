@@ -1,0 +1,55 @@
+{
+    "log_status": "COMMITTED & LOCKED - REAL-TIME FLOWS ACTIVE",
+    "data_date": "2026-05-29",
+    "timestamp_utc": 1780079313,
+    "market_breadth_index": "1/11 Net-Positive Sectors (Tech Hegemony Paradigm)",
+    "macro_rotation_vectors": {
+        "technology_xlk": {
+            "quadrant": "LEADING",
+            "composite_rs": 16.89,
+            "rotation_momentum_20_sess": 9.1,
+            "net_inflow_usd": 505000000,
+            "critical_subsectors_mapped": [
+                "Communication Equipment",
+                "Computer Hardware",
+                "Consumer Electronics",
+                "Electronic Components",
+                "Electronics & Computer Distribution",
+                "Information Technology Services",
+                "Scientific & Technical Instruments",
+                "Semiconductor Equipment & Materials",
+                "Semiconductors",
+                "Software - Application",
+                "Software - Infrastructure",
+                "Solar"
+            ]
+        },
+        "healthcare_xlv": {
+            "quadrant": "IMPROVING (DEFENSIVE HEDGE)",
+            "composite_rs": -6.7,
+            "rotation_momentum_20_sess": 2.9,
+            "net_inflow_usd": 138000000,
+            "projection_sessions_to_lead": 46,
+            "weekly_status": "Stalled (Accumulation phase prior to breakout)"
+        },
+        "energy_xle": {
+            "quadrant": "LAGGING / ROLLING OVER",
+            "composite_rs": -10.2,
+            "distance_from_peak": -36.31,
+            "net_outflow_usd": -392000000,
+            "structural_trigger": "Forced reopening of Hormuz Strait / Deflation of kinetic war premium"
+        },
+        "utilities_xlu": {
+            "quadrant": "LAGGING",
+            "composite_rs": -11.7,
+            "distance_from_peak": -20.99,
+            "net_inflow_usd": 24000000
+        }
+    },
+    "m82_fiduciary_safeguards": {
+        "escrow_nocional_usd": 2330000000,
+        "insulation_protocol": "100% decoupling from legacy sovereign risk and PDV Holding litigations",
+        "audit_layer": "KPMG US (US GAAP Standardized Traceability)",
+        "investment_modality": "Inelastic physical asset leaseback targeting 1.23M bpd transition corridor"
+    }
+}

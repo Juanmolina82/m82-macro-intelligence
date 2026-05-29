@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @page { size: A4; margin: 15mm; }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; color: #1a1a1a; line-height: 1.4; }
+        .header { text-align: center; border-bottom: 2px solid #8B0000; margin-bottom: 30px; padding-bottom: 10px; }
+        h1 { color: #8B0000; font-size: 18pt; }
+        h2 { color: #333; border-left: 5px solid #8B0000; padding-left: 10px; font-size: 13pt; margin-top: 20px; }
+        .piso-box { margin-bottom: 20px; padding: 12px; background-color: #fffaf0; border: 1px solid #eee; border-radius: 5px; }
+        code { display: block; background: #2b2b2b; color: #a9b7c6; padding: 10px; border-radius: 3px; font-family: 'Courier New', monospace; font-size: 9pt; margin: 10px 0; }
+        .desc { font-size: 10pt; font-style: italic; color: #555; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>ANEXO TÉCNICO: CIMIENTOS Y BASE OPERATIVA (MBA 0-4)</h1>
+        <p>MOLINA HOLDINGS LLC | Protocolos de Estabilidad y Linaje</p>
+    </div>
+
+    <div class="piso-box">
+        <h2>PISO 4: ANALYTICS & CORRELATION ENGINE</h2>
+        <p class="desc">Algoritmo de correlación de activos cruzados para identificar el "Alpha" entre Tech y Metales.</p>
+        <code>correlation_matrix = df[['MU', 'NVDA', 'XAU', 'NQ']].corr()
+momentum_score = (price_t0 / price_tn) - 1</code>
+    </div>
+
+    <div class="piso-box">
+        <h2>PISO 3: HISTORICAL VAULT (AUDITORÍA CSV)</h2>
+        <p class="desc">Protocolo de limpieza y estructuración de data histórica para el entrenamiento de la AGI.</p>
+        <code>def clean_vault_data(file_path):
+    df = pd.read_csv(file_path)
+    df.drop_duplicates(inplace=True)
+    return df.to_sql('historical_master', engine)</code>
+    </div>
+
+    <div class="piso-box">
+        <h2>PISO 2: GOVERNANCE & MBA FRAMEWORK</h2>
+        <p class="desc">Lógica de distribución de capital basada en el manifiesto de Molina Holdings.</p>
+        <code>if asset_allocation > portfolio_limit:
+    rebalance_signal = True
+    target_weight = calculate_kelly_criterion()</code>
+    </div>
+
+    <div class="piso-box">
+        <h2>PISO 1: INFRASTRUCTURE & SENTINEL CORE</h2>
+        <p class="desc">Latido del sistema. El Sentinel Bot en su nivel más básico de monitoreo de servidores.</p>
+        <code>while system_alive:
+    check_github_sync()
+    check_termux_node_status()
+    heartbeat_log("Operational")</code>
+    </div>
+
+    <div class="piso-box">
+        <h2>PISO 0: GÉNESIS (LINEA DE SANGRE LEGAL)</h2>
+        <p class="desc">Cifrado del registro fundacional y los documentos de incorporación de la LLC.</p>
+        <code>genesis_hash = hashlib.sha512("Molina_Holdings_LLC_Incorporation_2026".encode())
+print(f"GENESIS BLOCK SEALED: {genesis_hash.hexdigest()}")</code>
+    </div>
+
+    <div style="margin-top: 30px; border-top: 1px solid #ccc; padding-top: 10px; text-align: center; font-size: 9pt;">
+        Este anexo completa la integridad estructural de los 18 pisos.<br>
+        <strong>Soberanía Total Confirmada.</strong>
+    </div>
+</body>
+</html>

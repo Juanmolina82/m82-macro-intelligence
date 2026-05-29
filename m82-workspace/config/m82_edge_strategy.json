@@ -1,0 +1,16 @@
+{
+  "STRATEGIC_FRAMEWORK": {
+    "codename": "Edge-Island Doctrine",
+    "infrastructure_level": "Layer 0 - Physical Edge",
+    "deployment_target": "Mobile Terminal Resilience (Termux/Sovereign Nodes)"
+  },
+  "CORE_TACTICS": {
+    "zero_trust_mesh": "Eliminación de servidores centrales corporativos. Sincronización directa P2P (Peer-to-Peer) de los ledgers de datos.",
+    "island_mode_capability": "El sub-agente móvil debe ser capaz de procesar análisis de riesgo y almacenar cables de M82 Workspace de forma 100% local y desconectada.",
+    "immutable_cold_storage": "Las actas de la victoria y los logs de auditoría de flujos offshore se encriptan localmente con llaves privadas SSH generadas en el dispositivo móvil."
+  },
+  "ADVANTAGES_FOR_DIASPORA": {
+    "censorship_resistance": "Ningún gobierno o corporación tecnológica puede apagar la red porque cada teléfono de la diáspora es un servidor espejo.",
+    "zero_latency_alfa": "El procesamiento en el borde (Edge) ejecuta los algoritmos cuantitativos antes de que la información viaje a bases de datos transnacionales."
+  }
+}

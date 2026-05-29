@@ -1,0 +1,27 @@
+{
+    "architecture_version": "3.3 FINAL",
+    "technology_platform": "M82 World Spy System",
+    "governance": {
+        "parent": "Molina Holdings LLC (Tennessee)",
+        "gp": "Molina Global LLC (Delaware)",
+        "audit": "US GAAP - Deloitte Nashville/Global"
+    },
+    "initial_phases": {
+        "phase_1": {
+            "name": "Desconexión Operativa y Adquisición en Origen (TPU Doctrine)",
+            "allocation_usd": 500000000,
+            "mechanism": "Compra directa ex-sovereign de colateral de infraestructura física"
+        },
+        "phase_2": {
+            "name": "Mutación Jurídica a OpEx y Arrendamiento Financiero (Leaseback)",
+            "framework": "Delaware GP Inelastic Contract with Global Operator Guarantees"
+        }
+    },
+    "discipline": {
+        "leverage": "3.5x - 4.5x Debt/EBITDA",
+        "hedging": ">=80% Fixed-Rate",
+        "ebitda_margin": "60% - 70%",
+        "ffo": "~42%",
+        "preferred_return": "8% Compounded (European Waterfall)"
+    }
+}

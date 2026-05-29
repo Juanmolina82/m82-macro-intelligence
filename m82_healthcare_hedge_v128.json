@@ -1,0 +1,27 @@
+{
+    "log_status": "COMMITTED - REAL-TIME CAPITAL FLOWS BOUND",
+    "data_date": "2026-05-29",
+    "timestamp_activation": 1780073720,
+    "macro_rotation_trigger": {
+        "source_catalyst": "Post-war global consequences & tactical risk re-pricing",
+        "outflow_sector": {
+            "ticker": "XLE (Energy)",
+            "status": "Lagging / Rolling over",
+            "peak_drawdown": -36.31,
+            "session_net_flow_usd": -392000000
+        },
+        "inflow_sector": {
+            "ticker": "XLV (Healthcare / Biotech)",
+            "status": "Improving (Targeting Leadership)",
+            "sessions_to_cross_pace": 46,
+            "session_net_flow_usd": 138000000,
+            "stalling_index_this_week": true
+        }
+    },
+    "m82_fiduciary_positioning": {
+        "consolidated_vault_usd": 2330000000,
+        "hedging_mandate": "Immunize capital from energy paper volatility (XLE liquidation)",
+        "allocation_framework": "Capital deployment via inelastic Leaseback on physical infrastructure",
+        "audit_layer": "KPMG US (US GAAP Standardized Traceability)"
+    }
+}

@@ -1,0 +1,5 @@
+NASDAQ: 25898.43 ([1;31m+nan%[0m)
+DOW J: 49711.69 ([1;31m+nan%[0m)
+WHEAT: nan ([1;31m+nan%[0m)
+CRUDE: nan ([1;31m+nan%[0m)
+GOLD: nan ([1;31m+nan%[0m)

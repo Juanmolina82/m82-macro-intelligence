@@ -1,0 +1,14 @@
+{
+    "modulo_control": "Fase 3 - Escrow & Waterfall",
+    "banking_routing_protocol": "Segregated Institutional Channels (U.S. Source)",
+    "waterfall_rules": {
+        "tier_1_preferred_return": "8% Compounded (Hurdle Rate)",
+        "tier_2_gp_catch_up": "20% Distribution to Molina Global LLC",
+        "tier_3_lp_residual": "80% Pro-Rata Allocations"
+    },
+    "target_operational_metrics": {
+        "ebitda_margin": "60% - 70% (Consolidated)",
+        "funds_from_operations_ffo": "42% on Revenue",
+        "reinvestment_buffer": "30% - 40% for Brownfield Optimization"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "system_status": "V9.0 ENTERPRISE SANDBOX - COMPLIANCE VERIFIED",
+    "timestamp_activation": 1780036071,
+    "political_framework": {
+        "document": "Manifiesto de Panamá - Por el Gran Acuerdo Nacional",
+        "leadership": "María Corina Machado (Conductora del Proceso) & Edmundo González Urrutia",
+        "strategic_alignment": "U.S. 3-Phase Plan (Announced by Sec. Marco Rubio)"
+    },
+    "federal_protection_layer": {
+        "executive_order": "EO 14373 - Safeguarding Natural Resources",
+        "regime_type": "Foreign Government Deposit Funds (U.S. Treasury Custody)",
+        "legal_effect": "Commercial court attachments (NY/DE) are expressly prohibited, null, and void"
+    },
+    "ofac_regulatory_track": {
+        "general_license_58": {
+            "status": "ACTIVE (Preparatory Stage)",
+            "scope": "Authorized professional legal & financial services to PREPARE debt restructuring options",
+            "restrictions": "No direct debt settlement or asset liquidation authorized without further licenses",
+            "lead_advisor_track": "Centerview Partners (Target Roadmap: June 2026)"
+        },
+        "general_license_5w": {
+            "status": "TIMED LOCK",
+            "critical_window_start": "June 19, 2026",
+            "target_asset": "PDVSA 2020 Bond Collateral Framework (Citgo)"
+        }
+    },
+    "m82_fiduciary_metrics": {
+        "consolidated_notional_volume_usd": 2330000000,
+        "escrow_modality": "Segregated Federal Accounts (Isolated from Legacy Debt)",
+        "independent_auditor": "KPMG US (Full US GAAP & SEC Traceability Compliance)",
+        "leverage_ceiling": "3.5x to 4.5x Debt/EBITDA",
+        "hedging_protection_ratio": ">=80% Fixed-Rate Matrix",
+        "ebitda_margin_target": "60% - 70% (Consolidated Infrastructure Corridor)",
+        "preferred_return_hurdle": "8% Compounded (European Waterfall Execution)",
+        "operational_modality": "Inelastic Asset Leaseback (Midstream & Logistics Hubs)",
+        "target_energy_vector": "1.23M bpd Transition Production Efficiency Capture"
+    }
+}

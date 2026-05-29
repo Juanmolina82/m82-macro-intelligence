@@ -1,0 +1,2 @@
+# M82 SOVEREIGN CORE - UNIFIED COMMAND CENTRE
+Estatus: CONSOLIDADO | Activos: IA-Plataforma + Global-Core

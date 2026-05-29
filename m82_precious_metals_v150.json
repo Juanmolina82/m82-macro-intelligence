@@ -1,0 +1,23 @@
+{
+    "log_status": "COMMITTED - SYSTEM COMMODITY DATA ALIGNED",
+    "data_date": "2026-05-29",
+    "timestamp_utc": 1780080119,
+    "market_quotes": {
+        "spot_gold_xau_usd": 4556.84,
+        "gold_daily_pct": 1.5,
+        "gold_monthly_trend": "Down >1% (May contraction)",
+        "spot_silver_xag_usd": 75.62,
+        "platinum_xpt_usd": 1917.65,
+        "palladium_xpd_usd": 1352.24
+    },
+    "macro_economic_drivers": {
+        "fed_monetary_policy": "Higher-for-longer interest rates confirmed due to April inflation spikes",
+        "dxy_index_status": "Weekly decline / Short-term support for non-yielding bullion",
+        "oil_correlation": "Weekly drop on Ormuz Strait diplomatic breakthrough reduces immediate risk premium"
+    },
+    "m82_asset_protection": {
+        "escrow_nocional_usd": 2330000000,
+        "audit_standard": "KPMG US (US GAAP Compliant Matrix)",
+        "allocation_posture": "Capital preservation achieved by bypassing liquid paper/gold volatility and locking physical leaseback cash-flows"
+    }
+}

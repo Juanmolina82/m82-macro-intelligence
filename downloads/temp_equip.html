@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @page { size: A4; margin: 15mm; }
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1a1a1a; line-height: 1.5; }
+        .header { text-align: center; border-bottom: 3px solid #d4af37; padding-bottom: 15px; margin-bottom: 25px; }
+        h1 { color: #00264d; font-size: 20pt; margin: 0; }
+        h2 { color: #004080; border-bottom: 2px solid #eee; padding-bottom: 5px; font-size: 15pt; margin-top: 25px; }
+        .grid { display: flex; flex-wrap: wrap; gap: 20px; }
+        .card { flex: 1; min-width: 250px; border: 1px solid #ddd; padding: 15px; border-radius: 8px; background: #fff; }
+        .card-title { font-weight: bold; color: #8B0000; margin-bottom: 10px; display: block; border-bottom: 1px solid #eee; }
+        ul { padding-left: 20px; font-size: 10pt; }
+        .energy-annex { background-color: #fff9e6; border: 2px solid #d4af37; padding: 20px; margin-top: 30px; border-radius: 10px; }
+        .highlight { color: #004080; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>DIAGRAMA DE EQUIPAMIENTO E INFRAESTRUCTURA M82</h1>
+        <p>Torre de Operaciones y Anexo de Respaldo Energético</p>
+    </div>
+
+    <h2>1. Equipamiento por Divisiones (Torre)</h2>
+    <div class="grid">
+        <div class="card">
+            <span class="card-title">Cúpula e Inteligencia (11-18)</span>
+            <ul>
+                <li><strong>Procesadores Cuánticos:</strong> Unidades de 100 Qubits (Refrigeración Criogénica).</li>
+                <li><strong>Nodos AGI:</strong> Clusters de GPUs NVIDIA H100 (Sovereign AI).</li>
+                <li><strong>Telecomunicaciones:</strong> Antenas Satelitales Starlink de grado militar.</li>
+                <li><strong>Sky-Port:</strong> Balizas de aterrizaje láser y radar de defensa anti-drones.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <span class="card-title">Ejecución y Riesgo (5-10)</span>
+            <ul>
+                <li><strong>Terminales Bloomberg:</strong> Estaciones de trading multimonitor de baja latencia.</li>
+                <li><strong>Servidores Sentinel:</strong> Hardware redundante con almacenamiento NVMe Gen5.</li>
+                <li><strong>Cifrado Hardware:</strong> Módulos HSM (Hardware Security Modules) para llaves privadas.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="energy-annex">
+        <h2>2. Anexo de Respaldo Energético (Soberanía Energética)</h2>
+        <p>Diseñado para garantizar <strong>0% de tiempo de inactividad</strong> incluso en fallos totales de la red pública.</p>
+        <div class="grid">
+            <div class="card">
+                <span class="card-title">Generación Primaria</span>
+                <ul>
+                    <li><strong>Granja Solar (Techo/Fachada):</strong> Paneles de alta eficiencia con tecnología Perovskita.</li>
+                    <li><strong>Micro-Turbinas de Gas:</strong> Respaldo de encendido rápido para carga crítica.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <span class="card-title">Almacenamiento y Estabilización</span>
+                <ul>
+                    <li><strong>Baterías de Estado Sólido:</strong> Capacidad de autonomía de 72 horas para toda la torre.</li>
+                    <li><strong>Volantes de Inercia (Flywheels):</strong> Respuesta inmediata (ms) para estabilizar la frecuencia.</li>
+                    <li><strong>UPS de Doble Conversión:</strong> Filtrado total de ruido eléctrico para equipos cuánticos.</li>
+                </ul>
+            </div>
+        </div>
+        <p style="margin-top:15px; font-size:10pt;"><em>Nota: El sistema de enfriamiento del Laboratorio Cuántico tiene su propio circuito redundante de nitrógeno líquido.</em></p>
+    </div>
+
+    <div style="text-align:center; margin-top:40px; font-size:9pt; color:#666;">
+        DISEÑO TÉCNICO VINCULADO AL PLAN MAESTRO M82 | CONFIDENCIAL
+    </div>
+</body>
+</html>

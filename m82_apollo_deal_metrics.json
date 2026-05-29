@@ -1,0 +1,26 @@
+{
+    "session_date": "2026-05-28",
+    "macro_context": {
+        "us_gdp_q1": "1.6% (Slowdown)",
+        "core_pce_inflation": "3.8% (Sticky)",
+        "sp500_forward_pe": "21.1x (Stretched)",
+        "gold_futures_aug6": "$4,526.2"
+    },
+    "deal_anatomy": {
+        "amount_usd": "36_000_000_000",
+        "lead_originators": [
+            "Apollo Global Management",
+            "Blackstone Inc."
+        ],
+        "target_infrastructure": "Google Custom TPU Chips (Physical Silicon Leaseback)",
+        "end_user": "Anthropic PBC",
+        "guarantor": "Broadcom (AVGO)",
+        "syndication_speed": "Lightning Syndication (Under 7 days to close orders)"
+    },
+    "key_insights": [
+        "Migración acelerada de capital fiduciario hacia la colateralización de activos duros, tangibles e inelásticos.",
+        "Declaraciones de Jim Zelter en la Bernstein Conference confirman entorno de 'estanflación pegajosa e intereses altos por más tiempo'.",
+        "Uso del esquema leaseback respaldado por silicio real para eliminar el riesgo de papel de la renta variable tradicional.",
+        "Sincronización temporal con el hito de Jon Gray (Blackstone) en la conferencia de Morgan Stanley el 9 de junio."
+    ]
+}

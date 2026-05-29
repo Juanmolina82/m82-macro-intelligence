@@ -1,0 +1,66 @@
+{
+    "release_metadata": {
+        "version": "24.0.0-GOLD-MASTER",
+        "as_of_date": "2026-05-29",
+        "timestamp_utc": 1780083930,
+        "system_integrity": "100% BALANCED"
+    },
+    "political_governance": {
+        "framework": "Manifiesto de Panamá - Por el Gran Acuerdo Nacional",
+        "signatories": [
+            "María Corina Machado (Plataforma Unitaria Democrática)",
+            "Edmundo González Urrutia (Alianza Con Vzla)"
+        ],
+        "execution_track": "U.S. 3-Phase Transition Plan (Secretary Marco Rubio Track)"
+    },
+    "lseg_sector_rotation_matrix": {
+        "market_breadth": "1/11 Net-Positive Sectors (Tech Hegemonic Lead)",
+        "sectors": {
+            "XLK_Technology": {
+                "phase": "LEADING",
+                "comp": 16.89,
+                "twenty_sess_momentum": 9.1,
+                "net_inflow_usd_m": 505.0,
+                "internal_industries": [
+                    "Computer Hardware",
+                    "Semiconductors",
+                    "Software - Application"
+                ]
+            },
+            "XLV_Healthcare": {
+                "phase": "IMPROVING",
+                "comp": -6.7,
+                "twenty_sess_momentum": 2.9,
+                "net_inflow_usd_m": 138.0,
+                "sessions_to_cross_lead": 46
+            },
+            "XLE_Energy": {
+                "phase": "LAGGING",
+                "comp": -10.2,
+                "twenty_sess_momentum": -8.9,
+                "net_outflow_usd_m": -392.0,
+                "drawdown_off_peak": -36.31
+            }
+        }
+    },
+    "wall_street_shocks": {
+        "catalysts": [
+            "Dell Technologies (DELL.N) surges +29.1% on AI hardware demand",
+            "USMCA automotive rules tightening under Trump Administration impacts industrial lines",
+            "Procure Space ETF (UFO.O) stalled post Blue Origin rocket explosion event",
+            "JPMorgan (Jamie Dimon) deploys $10B-$20B pool into Private Credit / Blue Owl infrastructure"
+        ],
+        "intermarket_forex_commodities": {
+            "eur_usd": "Pierced 200-DMA, short-term peak at 1.1686, estimated baseline close at 1.1665",
+            "spot_gold_xau": 4556.84,
+            "us2yt_yields": "Deepened losses on US-Iran geopolitical safe-haven liquidation"
+        }
+    },
+    "fiduciary_protection_layer": {
+        "notional_escrow_usd": 2330000000,
+        "isolation_protocol": "100% Ring-fenced against legacy sovereign risk, PDV Holding & Citgo litigation",
+        "accounting_standard": "US GAAP Standard Compliance",
+        "auditor_firm": "KPMG US",
+        "underlying_modality": "Inelastic physical asset midstream infrastructure leaseback (1.23M bpd corridor capture)"
+    }
+}

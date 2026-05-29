@@ -1,0 +1,17 @@
+--- INICIO DE CANAL SEPARADO: INFRAESTRUCTURA ---
+
+--- BARRONS CLOSING ANALYSIS: 2026-05-21 17:26 ---
+2026-05-21 17:26|QUANTUM_NODE|Anderon_IBM|Cap:$2,000M|Type:Foundry 300mm|Detail:Coinversión Fed
+2026-05-21 17:26|QUANTUM_NODE|D-Wave_QBTS|Cap:$100M|Type:Common Stock|Detail:CEO Alan Baratz
+2026-05-21 17:26|QUANTUM_NODE|Infleqtion|Cap:$100M|Type:Discount Stock|Detail:15% Arbitraje Fix
+2026-05-21 17:26|QUANTUM_NODE|GlobalFoundries|Cap:$375M|Type:1% Equity Stake|Detail:Sovereign Backup
+2026-05-21 17:41|4TH_UPDATE_WSJ|IBM_CEO:Arvind_Krishna|Horizonte:2035_HighMargin|GPS_Replacement_Tech:True|Private_VC:1789_Capital|Vulcan_Elements_Link:True
+2026-05-21 17:42|MARKET_CAP_CONFIRMED|QBTS_Val:$7.1B|RGTI_Val:$4.8B|INFQ_Val:$1.2B|Gov_Investment:$100M_Each|Dilucion_QBTS:1.40%
+2026-05-21 17:46|JOINT_VENTURE_DETECTION|Entity:ANDERON|Structure:Public-Private-JV|State_Cash:$1,000M|Private_Cash:$1,000M|IP_Transfer:True|Fab_Type:300mm_Wafer
+2026-05-21 18:03|JV_ANDERON_MANAGEMENT|Status:CORREGIDO|Doc_Type:JV_Minutes|Gerencia_Asignada:True|Governance:50-50_Board|IP_Transfer_Verified:True
+2026-05-21 18:53|OFFERING_PRICED|Symbol:GFS|Shares:20M|Price:$42.00_USD|Mubadala_Repurchase:$300M_USD|Total_Equity_Flow:$966M_USD|Status:CLOSED_RAIZ
+2026-05-21 19:52|OFFERING_PRICED|Symbol:GFS|Shares:20M|Price:$42.00_USD|Mubadala_Repurchase:$300M_USD|Total_Equity_Flow:$966M_USD|Status:CLOSED_RAIZ
+2026-05-21 19:55|GFS_PRICING_DEAL|Offering_Volume:20M_Shares|Price_Per_Share:$42.00_USD|Mubadala_Repurchase:$300M_USD|Net_Market_Flow:$840M_USD|Control_Status:MAINTAINED
+2026-05-21 19:58|CHART_CLOSE|Symbol:GFS|Price_Close:52.12|Net_Change:+6.80|Percentage:+15.00%|Intraday_Low:46.22|Premium_Over_Offering:+24.1%|Status:RESOLVED
+2026-05-21 20:07|OFFERING_PRICED|Symbol:GFS|Shares:20M|Price:$42.00_USD|Mubadala_Repurchase:$300M_USD|Total_Equity_Flow:$966M_USD|Status:CLOSED_RAIZ
+2026-05-21 20:10|GFS_PRICING_DEAL|Offering_Volume:20M_Shares|Price_Per_Share:$42.00_USD|Mubadala_Repurchase:$300M_USD|Net_Market_Flow:$840M_USD|Control_Status:MAINTAINED
