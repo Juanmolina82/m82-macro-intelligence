@@ -1,10 +1,10 @@
 {
     "release_metadata": {
-        "version": "24.2.0-GEO-RISK",
+        "version": "24.3.0-SUPPLY-CHAIN",
         "as_of_date": "2026-05-29",
         "timestamp_utc": 1780083930,
         "system_integrity": "100% BALANCED",
-        "last_update_utc": 1780094818
+        "last_update_utc": 1780094998
     },
     "political_governance": {
         "framework": "Manifiesto de Panamá - Por el Gran Acuerdo Nacional",
@@ -92,5 +92,26 @@
             "compliance_requirement": "Strict adherence to US Federal Licenses (OFAC) & B2B Global Pacts"
         },
         "platform_impact_mitigation": "Holdings LLC (Delaware) IP layer remains fully insulated. Telemetry data node tracking operational from Tennessee General Partner."
+    },
+    "white_house_strategic_directives": {
+        "memo_date": "2026-05-29",
+        "focus_areas": [
+            "Critical Minerals",
+            "Advanced Materials",
+            "Strategic Supply Chains"
+        ],
+        "talent_war_cap_positions": 400,
+        "required_disciplines": [
+            "Investment",
+            "Engineering",
+            "Financial",
+            "Legal"
+        ],
+        "compliance_implications": {
+            "auditable_supply_chains": "MANDATORY",
+            "regulatory_scrutiny_level": "MAXIMUM",
+            "m82_platform_alignment": "Natively aligned via Delaware IP encryption and Tennessee data nodes telemetry."
+        },
+        "strategic_note": "El enfoque de EE. UU. en la fiscalización de recursos estratégicos acelera la relevancia de gemelos digitales y minería de procesos (Celonis) en el corredor midstream."
     }
 }
