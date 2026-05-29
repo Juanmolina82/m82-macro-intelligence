@@ -1,10 +1,10 @@
 {
     "release_metadata": {
-        "version": "24.1.0-SNOW-PATCH",
+        "version": "24.2.0-GEO-RISK",
         "as_of_date": "2026-05-29",
         "timestamp_utc": 1780083930,
         "system_integrity": "100% BALANCED",
-        "last_update_utc": 1780087489
+        "last_update_utc": 1780094818
     },
     "political_governance": {
         "framework": "Manifiesto de Panamá - Por el Gran Acuerdo Nacional",
@@ -81,5 +81,16 @@
         "accounting_standard": "US GAAP Standard Compliance",
         "auditor_firm": "KPMG US",
         "underlying_modality": "Inelastic physical asset midstream infrastructure leaseback (1.23M bpd corridor capture)"
+    },
+    "geopolitical_risk_index": {
+        "assessment_date": "2026-05-29",
+        "monitoring_zone": "Caribbean Axis / Southern Command (SOUTHCOM)",
+        "trigger_event": "Rare meeting between US General Donovan and Cuban Military at Guantanamo perimeter",
+        "macro_variables": {
+            "energy_tariffs_blockade_risk": "HIGH",
+            "regional_infrastructure_volatility": "ELEVATED",
+            "compliance_requirement": "Strict adherence to US Federal Licenses (OFAC) & B2B Global Pacts"
+        },
+        "platform_impact_mitigation": "Holdings LLC (Delaware) IP layer remains fully insulated. Telemetry data node tracking operational from Tennessee General Partner."
     }
 }
