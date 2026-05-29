@@ -1,0 +1,7 @@
+Case_ID,Activity_Name,Timestamp,Asset_Core,Jurisdiction,Operator_Log
+CASE-TRUST-2026-001,Fiduciary Fund Inception,2026-05-27 17:23:41.335012,USD 2.33B Trust,Delaware (Matriz),KPMG US Pre-Audit
+CASE-TRUST-2026-001,Hurdle Rate Validation,2026-05-27 19:23:41.335012,USD 2.33B Trust,Delaware (Matriz),8% Compounded Checked
+CASE-TRUST-2026-001,European Waterfall Authorization,2026-05-27 22:23:41.335012,USD 2.33B Trust,Delaware (Matriz),Preferred Return Disbursed
+CASE-MIDSTREAM-001,Telemetry Node Ingestion,2026-05-27 17:33:41.335012,1.23M bpd Corridor,Tennessee (GP),Sensor Node Alpha Active
+CASE-MIDSTREAM-001,Volume Discrepancy Audit,2026-05-27 18:38:41.335012,1.23M bpd Corridor,Tennessee (GP),0.00% Deviation Confirmed
+CASE-MIDSTREAM-001,B2B Offtaker Factoring,2026-05-27 21:23:41.335012,1.23M bpd Corridor,Tennessee (GP),OFAC Compliance Shield Applied
