@@ -1,10 +1,10 @@
 {
     "release_metadata": {
-        "version": "24.7.0-ENERGY-FISCAL",
+        "version": "24.8.1-CHEVRON-CELONIS-INTEGRATED",
         "as_of_date": "2026-05-29",
         "timestamp_utc": 1780083930,
         "system_integrity": "100% BALANCED",
-        "last_update_utc": 1780105016
+        "last_update_utc": 1780109436
     },
     "political_governance": {
         "framework": "Manifiesto de Panamá - Por el Gran Acuerdo Nacional",
@@ -150,5 +150,37 @@
             "midstream_implication": "A potential increase in production volumes directly stresses physical transport capacity towards the 1.23M bpd target.",
             "process_mining_utility": "Event logs must natively absorb tax and royalty compliance verification steps under US GAAP / IFRS standards."
         }
-    }
+    },
+    "chevron_simulated_scenarios": [
+        {
+            "Escenario": "ACTUAL",
+            "Regalia_Pct": "33.300000000000004%",
+            "Impuesto_Pct": "50.0%",
+            "Ingreso_Gross_USD": 33671250000.0,
+            "Costo_Regalias_USD": 11212526250.0,
+            "NOPAT_USD": 8423161875.0,
+            "ROIC_Pct": "187.18%",
+            "Viabilidad": "VIABLE"
+        },
+        {
+            "Escenario": "PROPUESTA_MEDIA",
+            "Regalia_Pct": "20.0%",
+            "Impuesto_Pct": "34.0%",
+            "Ingreso_Gross_USD": 33671250000.0,
+            "Costo_Regalias_USD": 6734250000.0,
+            "NOPAT_USD": 14074236000.0,
+            "ROIC_Pct": "312.76%",
+            "Viabilidad": "VIABLE"
+        },
+        {
+            "Escenario": "PROPUESTA_AGRESIVA",
+            "Regalia_Pct": "12.0%",
+            "Impuesto_Pct": "25.0%",
+            "Ingreso_Gross_USD": 33671250000.0,
+            "Costo_Regalias_USD": 4040550000.0,
+            "NOPAT_USD": 18013725000.0,
+            "ROIC_Pct": "400.31%",
+            "Viabilidad": "VIABLE"
+        }
+    ]
 }
