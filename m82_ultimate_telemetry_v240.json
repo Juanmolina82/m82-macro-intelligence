@@ -1,10 +1,10 @@
 {
     "release_metadata": {
-        "version": "24.4.0-CRITICAL-PAY-URGENT",
+        "version": "24.6.0-SOVEREIGN-DEBT",
         "as_of_date": "2026-05-29",
         "timestamp_utc": 1780083930,
         "system_integrity": "100% BALANCED",
-        "last_update_utc": 1780095228
+        "last_update_utc": 1780104802
     },
     "political_governance": {
         "framework": "Manifiesto de Panamá - Por el Gran Acuerdo Nacional",
@@ -121,6 +121,19 @@
                 "vulnerability_mitigation": "Maximum security clearance parameters on data tracking modules.",
                 "operational_impact": "Preparation for interaction with ultra-specialized federal investment taskforces."
             }
+        }
+    },
+    "latam_sovereign_macro": {
+        "event_date": "2026-05-29",
+        "country": "Mexico",
+        "refinancing_amount_usd": 12220000000.0,
+        "exchange_rate_fixed": 17.34,
+        "new_issuance_inflation_linked_usd": 499420000.0,
+        "maturity_extension_years": 3.5,
+        "risk_indicators": {
+            "inflation_hedging_demand": "HIGH",
+            "regional_liquidity_status": "STABILIZED",
+            "m82_portfolio_protection": "Delaware asset structure isolated from direct LATAM currency exposure."
         }
     }
 }
