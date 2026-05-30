@@ -1,10 +1,10 @@
 {
     "release_metadata": {
-        "version": "24.6.0-SOVEREIGN-DEBT",
+        "version": "24.7.0-ENERGY-FISCAL",
         "as_of_date": "2026-05-29",
         "timestamp_utc": 1780083930,
         "system_integrity": "100% BALANCED",
-        "last_update_utc": 1780104802
+        "last_update_utc": 1780105016
     },
     "political_governance": {
         "framework": "Manifiesto de Panamá - Por el Gran Acuerdo Nacional",
@@ -134,6 +134,21 @@
             "inflation_hedging_demand": "HIGH",
             "regional_liquidity_status": "STABILIZED",
             "m82_portfolio_protection": "Delaware asset structure isolated from direct LATAM currency exposure."
+        }
+    },
+    "energy_infrastructure_fiscal_radar": {
+        "event_date": "2026-05-29",
+        "prime_operator": "Chevron (Mike Wirth, CEO)",
+        "jurisdiction_target": "Venezuela",
+        "regulatory_framework": "US Treasury Department / OFAC Licensed Activities",
+        "proposed_adjustments": {
+            "royalty_burden_reduction": "PROPOSED",
+            "tax_structure_incentives": "REQUIRED FOR EXPANSION",
+            "target_objective": "Improve Return on Invested Capital (ROIC)"
+        },
+        "m82_platform_alignment": {
+            "midstream_implication": "A potential increase in production volumes directly stresses physical transport capacity towards the 1.23M bpd target.",
+            "process_mining_utility": "Event logs must natively absorb tax and royalty compliance verification steps under US GAAP / IFRS standards."
         }
     }
 }
